@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ppsr2dcatlauncher</groupId>
+  <artifactId>ppsr2dcatlauncher</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ppsr2dcatlauncher</name>
+  <description>Project for supporting PPSR to DCATCS transformations</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>17</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <repositories>
+        <repository>
+            <id>eclipse-releases</id>
+            <url>https://repo.eclipse.org/content/groups/releases/</url>
+        </repository>   
+           <repository>
+            <id>maven-central</id>
+            <url>https://mvnrepository.com/artifact/</url>
+        </repository>  
+  </repositories>
+  <dependencies>
+	  
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20230618</version>
+</dependency>
+<dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.6</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.ecore -->
+<dependency>
+    <groupId>org.eclipse.emf</groupId>
+    <artifactId>org.eclipse.emf.ecore</artifactId>
+    <version>2.34.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.ecore.xmi -->
+<dependency>
+    <groupId>org.eclipse.emf</groupId>
+    <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+    <version>2.18.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.emftvm -->
+<dependency>
+    <groupId>org.eclipse.m2m.atl</groupId>
+    <artifactId>org.eclipse.m2m.atl.emftvm</artifactId>
+    <version>4.8.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.core.emf -->
+<dependency>
+    <groupId>org.eclipse.m2m.atl</groupId>
+    <artifactId>org.eclipse.m2m.atl.core.emf</artifactId>
+    <version>4.8.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.engine.emfvm -->
+<dependency>
+    <groupId>org.eclipse.m2m.atl</groupId>
+    <artifactId>org.eclipse.m2m.atl.engine.emfvm</artifactId>
+    <version>4.8.0</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.platform/org.eclipse.core.runtime -->
+<dependency>
+    <groupId>org.eclipse.platform</groupId>
+    <artifactId>org.eclipse.core.runtime</artifactId>
+    <version>3.27.0</version>
+</dependency>
+
+
+  </dependencies>
+
+</project>

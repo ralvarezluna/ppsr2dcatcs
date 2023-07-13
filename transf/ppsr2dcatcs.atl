@@ -1,0 +1,153 @@
+-- @path PPSR=/ppsr2dcatlauncher/metamodels/ppsr_metamodel.ecore
+-- @path DCATCS=/ppsr2dcatlauncher/metamodels/dcatcs_metamodel.ecore
+-- @atlcompiler emftvm
+
+module ppsr2dcatcs;
+create OUT : DCATCS from IN : PPSR;
+
+helper def: id : String = '';
+helper def: dist: Sequence(OclAny) = Sequence{};
+
+rule program {
+	from
+		program : PPSR!ProgramOrCampaign
+	to 
+		CSCatalog : DCATCS!CSCatalog (
+			identifier <- program.programId,
+			title <- program.programName,
+			language <- program.language,
+			csproject <- program.csproject
+			
+		)
+}
+
+rule projects {
+	from
+		proj : PPSR!CSProject
+	to 
+		csproject : DCATCS!CSProject (
+			identifier <- proj.projectId,
+			releaseDate <- proj.projectDateCreated,
+			updateModificationDate <- proj.projectLastUpdatedDate,
+			title <- proj.projectName,
+			projectAim <- proj.projectAim,
+			description <- proj.projectDescription,
+			hasPart <- proj.hasTag,
+			difficultyLevel <- proj.difficultyLevel,
+			keyword <- proj.keywords,
+			status <- proj.projectStatus,
+			projectStartDate <- proj.projectStartDate,
+			projectScienceType <- proj.projectScienceType,
+			language <- proj.language,
+			landingPage <- proj.projectUrl,
+			unRegions <- proj.unRegions,
+			projectgeographiclocation <- proj.projectgeographiclocation,
+			projectmedia <- proj.projectmedia,
+			contacts <- proj.contactpoint
+			
+		)
+		do {
+			thisModule.id <- proj.projectId;
+			thisModule.activity(proj.activity.first());
+		}	
+}
+
+rule contacts {
+	from
+		contact : PPSR!ContactPoint
+	to 
+		ContactPoint : DCATCS!ContactPoint (
+			contactEmail <- contact.contactEmail,
+			contactDetails <- contact.contactDetails,
+			contactName <- contact.contactName,
+			contactPointType <- contact.contactPointType
+			
+		)
+}
+
+rule pmedia {
+	from
+		media : PPSR!ProjectMedia
+	to 
+		ProjectMedia : DCATCS!ProjectMedia (
+			projectMediaCredit <- media.projectMediaCredit,
+			projectMediaFile <- media.projectMediaFile,
+			projectMediaType <- media.projectMediaType	
+		)
+}
+
+rule pgeo {
+	from
+		geo : PPSR!ProjectGeographicLocation
+	to 
+		ProjectGeographicLocation : DCATCS!ProjectGeographicLocation (
+			projectGeographicCoverage <- geo.projectGeographicCoverage,
+			projectGeographicCoverageCentroidLatitude <- geo.projectGeographicCoverageCentroidLatitude,
+			projectGeographicCoverageCentroidLongitude <- geo.projectGeographicCoverageCentroidLongitude,
+			projectPinLatitude <- geo.projectPinLatitude,
+			projectPinLongitude <- geo.projectPinLongitude
+		)
+}
+
+
+
+
+lazy rule activity {
+	from 
+		act : PPSR!Activity
+	to
+		CatalogRecord : DCATCS!CatalogRecord (
+			title <- thisModule.id,
+			description <- act.activityId,
+			resource <- thisModule.dataeschema(act.datasetmetadataschema)
+		)	
+}
+
+ lazy rule dataeschema {
+	from
+		de : PPSR!DatasetMetadataSchema
+	using{
+			
+			}
+	to 
+		ds:DCATCS!CSDataset
+		(
+		description <- de.observationalDataModel.toString(),
+		identifier <- thisModule.id + 'dataset',
+		abstract <- de.dmmcoreterms.abstract,
+		accrualPeriodicity <- de.dmmcoreterms.datasetEndDate,-- - de.dmmcoreterms.datesetStartDate,
+		bibliographicCitation <- de.dmmcoreterms.bibliographicCitation,
+		conformsTo <- de.dmmcoreterms.dataAccessMethod,
+		contactPoint <- de.dmmcoreterms.rightsHolder,
+		dataManagementPlan <- de.dmmextensionterms.dataManagementPlan,
+		dataQualityAssuranceMethod <- de.dmmextensionterms.dataQualityAssuranceMethod,
+		hasHypothesis <- de.dmmextensionterms.hasHypothesis,
+		hasInstrument <- de.dmmextensionterms.hasInstrument,
+		methodSpecification <- de.methodspecification.methodUrl,
+		methodType <- de.dmmcoreterms.methodType,
+		title <- de.dmmcoreterms.title,
+		wasGeneratedBy <- de.dmmcoreterms.rightsHolder,
+		distribution <- thisModule.dist->append(thisModule.distributions(de)) 
+		) 
+}
+
+
+ lazy rule distributions {
+ 	from
+		de : PPSR!DatasetMetadataSchema
+	
+	to  distribution : DCATCS!Distribution(
+		
+			accessURL <- de.dmmextensionterms.datasetExternalUrl,
+			downloadURL <- de.dmmextensionterms.downloadURL,
+			license <- de.dmmcoreterms.license,
+			format <- 'undefined',
+			issued <- de.dmmcoreterms.dateSubmitted,
+			rights <- de.dmmcoreterms.rightsHolder,
+			title <- de.dmmcoreterms.title
+			
+		) 
+ }
+
+
+

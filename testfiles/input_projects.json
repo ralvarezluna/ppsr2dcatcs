@@ -1,0 +1,2620 @@
+{
+	"name": "Matches",
+	"total": 157,
+	"page": 1,
+	"entities": [
+		{
+			"id": 7992,
+			"legacy_id": 100007992,
+			"box": 149052,
+			"value": "EwA Buggy",
+			"name": "EwA Buggy",
+			"slug": "ewa-buggy",
+			"link": "/ewa-buggy",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1684865281454.314,
+			"updated": 1685633301525.904,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+				"arthropods",
+				"climate",
+				"entomology",
+				"insects",
+				"interaction network",
+				"land use",
+				"monitoring",
+				"native plants",
+				"plants",
+				"pollinators",
+				"wildlife monitoring"
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.us-west-2.amazonaws.com/attr/2023-05/Miing_Bee_-_Claire_ONeill.jpeg",
+			"references": [
+			],
+			"grp_scistarter": "",
+			"duplicate": true,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "9c659748-33f3-4857-9ed0-ebab41db1fc4",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": true,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "Earthwise Aware",
+			"goal": "Help EwA build arthropod interaction networks.",
+			"task": "Document arthropod activity, abundance, phenology, and hosts.",
+			"description": "Help EwA document arthropod interaction networks so that we can understand better arthropod activity and their association dynamic with their floral hosts. \u24d8 More about EwA's Biodiversity and Climate Participatory Science program at www.earthwiseaware.org/citizen-science.",
+			"image_credit": "\u00a9 Claire O'Neill",
+			"grp_web": "",
+			"url": "https://www.anecdata.org/projects/view/1208",
+			"video_url": "https://tinyurl.com/EwA-Buggy-App-Tutorial",
+			"blog_url": "https://www.anecdata.org/projects/view/1208/forum/",
+			"twitter_name": "https://twitter.com/EarthwiseAware",
+			"facebook_page": "https://www.facebook.com/EarthwiseAware",
+			"instagram_page": "",
+			"grp_categorization": "",
+			"topics": [
+				{
+					"value": 16,
+					"label": "Insects & Pollinators"
+				},
+				{
+					"value": 21,
+					"label": "Nature & Outdoors"
+				},
+				{
+					"value": 9,
+					"label": "Ecology & Environment"
+				}
+			],
+			"fields_of_science": {
+			},
+			"practices": [
+				{
+					"value": 50,
+					"label": "Asking questions"
+				},
+				{
+					"value": 49,
+					"label": "Defining problems"
+				},
+				{
+					"value": 47,
+					"label": "Planning and carrying out investigations"
+				},
+				{
+					"value": 46,
+					"label": "Analyzing and interpreting data"
+				},
+				{
+					"value": 45,
+					"label": "Using mathematics and computational thinking"
+				},
+				{
+					"value": 44,
+					"label": "Constructing explanations"
+				}
+			],
+			"practices_how": "Co-created scientific processes.",
+			"search_terms": "",
+			"difficulty": {
+				"value": 2,
+				"label": "medium"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": [
+				{
+					"value": 113,
+					"label": "High school (14 - 17 years)"
+				},
+				{
+					"value": 114,
+					"label": "College"
+				},
+				{
+					"value": 117,
+					"label": "Families"
+				},
+				{
+					"value": 118,
+					"label": "Seniors"
+				},
+				{
+					"value": 115,
+					"label": "Graduate students"
+				},
+				{
+					"value": 116,
+					"label": "Adults"
+				}
+			],
+			"signup_url": "https://www.anecdata.org/projects/view/1208",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "Steps you can take to get involved in the project\n\nParticipants in EwA Arthropod Monitoring are asked to take a training that helps them build skills to identify local flora and their arthropod visitors and follow a scientific protocol to collect information and submit it to the project. Many participants do their training at an in-person session > Join an EwA field orientation session. You can also use the provided resource if no training is offered near you.\n\nIf you are located in the Greater Boston Area, you may also be interested in setting up a study site near you. If so, feel free to contact us so that we can best help you.",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "https://www.anecdata.org/projects/view/1208/pages/165",
+			"classroom_materials": "https://www.anecdata.org/projects/view/1208/pages/165",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "Phone camera, or camera. Magnifying lens if camera zoom is not good enough.",
+			"gear": "",
+			"mobile_app_url_android": "https://play.google.com/store/apps/details?id=org.anecdata.mobile",
+			"mobile_app_url_ios": "https://itunes.apple.com/us/app/anecdata-org/id1315666791?mt=8",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "NEAR",
+				"label": "At a location or range"
+			},
+			"entirely_online": false,
+			"on_demand": false,
+			"in_person": false,
+			"regions": null,
+			"regions_description": "United States",
+			"point": null,
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "Parks, garden, forest, meadow, and the like",
+			"location_description": "",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": null,
+			"end": null,
+			"project_timing": "",
+			"participation_schedule": "Anytime, but preferably on a regular basis",
+			"time_per_participation": {
+				"value": 209,
+				"label": "Fifteen minutes"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": [
+				{
+					"value": 194,
+					"label": "Joined the project"
+				},
+				{
+					"value": 202,
+					"label": "Participated"
+				},
+				{
+					"value": 195,
+					"label": "Classification / Transcription"
+				},
+				{
+					"value": 196,
+					"label": "Data collection"
+				}
+			],
+			"activities": [
+				{
+					"value": 40,
+					"label": "On a hike"
+				},
+				{
+					"value": 33,
+					"label": "On a walk, run"
+				},
+				{
+					"value": 28,
+					"label": "On a lunch break"
+				}
+			],
+			"special_skills": "Learn how to identify orders of arthropod and host plant species. Learn how to observe and document length, activity, behavior.",
+			"indoors": false,
+			"outdoors": false,
+			"grp_data": "",
+			"data_results": "Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms.",
+			"data_aggregation": [
+				{
+					"value": 102,
+					"label": "Raw"
+				}
+			],
+			"data_consent": [
+				{
+					"value": 105,
+					"label": "Through a generic terms of use agreement"
+				}
+			],
+			"data_visualization": true,
+			"data_access": [
+				{
+					"value": 109,
+					"label": "User-customizable download of selected parts"
+				},
+				{
+					"value": 108,
+					"label": "Bulk download of all data at once (e.g. by FTP download)"
+				}
+			],
+			"data_quality": false,
+			"metadata_publication_url": "",
+			"data_publication_url": "https://www.anecdata.org/projects/view/1208/data",
+			"data_license": "Licensed under Creative Commons Attribution 4.0 International License.",
+			"grp_outcomes": "",
+			"intended_outcomes": [
+				{
+					"value": 139,
+					"label": "Research advancement : knowledge generation"
+				},
+				{
+					"value": 138,
+					"label": "Research advancement : data gathering"
+				},
+				{
+					"value": 135,
+					"label": "Research advancement : baseline monitoring"
+				},
+				{
+					"value": 131,
+					"label": "Individual Learning : knowledge"
+				},
+				{
+					"value": 128,
+					"label": "Conservation : species management"
+				},
+				{
+					"value": 127,
+					"label": "Conservation : site management / preservation"
+				},
+				{
+					"value": 125,
+					"label": "Conservation : policy"
+				}
+			],
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": [
+				{
+					"value": 173,
+					"label": "Other independent agency"
+				}
+			],
+			"stakeholders": [
+				{
+					"value": 179,
+					"label": "Formal non-profit/NGO"
+				},
+				{
+					"value": 177,
+					"label": "Community group"
+				}
+			],
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 7991,
+			"legacy_id": 100007991,
+			"box": 149051,
+			"value": "EwA Pheno Lite",
+			"name": "EwA Pheno Lite",
+			"slug": "ewa-pheno-lite",
+			"link": "/ewa-pheno-lite",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1684865272497.4092,
+			"updated": 1684865272230.316,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+				" monitoring",
+				" phenology",
+				" plants",
+				" seasonal",
+				"climate change",
+				"monitoring",
+				"phenology",
+				"plants",
+				"seasonal"
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.us-west-2.amazonaws.com/attr/2023-05/imported/ewa-pheno-lite_tppF0rE",
+			"references": [
+			],
+			"grp_scistarter": "",
+			"duplicate": true,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "a4fc092b-234b-45ec-93f0-8ad759ac0d22",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": true,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "Earthwise Aware",
+			"goal": "Document the phenology of local flora species so that we can better understand the timing of seasonal events in relat...",
+			"task": "Observe familiar flora species throughout the seasons, and record their developmental phases at regular time intervals.",
+			"description": "In nature, timing is everything. Help Earthwise Aware (EwA) document the phenology of common flora species so that we can better understand the timing of seasonal events in relation to bird and insect activities. \u24d8 More about EwA's Biodiversity and Climate Participatory Science program at www.earthwiseaware.org/citizen-science",
+			"image_credit": "",
+			"grp_web": "",
+			"url": "https://www.anecdata.org/projects/view/1207",
+			"video_url": "",
+			"blog_url": "",
+			"twitter_name": "",
+			"facebook_page": "",
+			"instagram_page": "",
+			"grp_categorization": "",
+			"topics": {
+			},
+			"fields_of_science": {
+			},
+			"practices": {
+			},
+			"practices_how": "",
+			"search_terms": "",
+			"difficulty": {
+				"value": 1,
+				"label": "Easy"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": {
+			},
+			"signup_url": "",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "",
+			"classroom_materials": "",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "",
+			"gear": "",
+			"mobile_app_url_android": "",
+			"mobile_app_url_ios": "",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "NEAR",
+				"label": "At a location or range"
+			},
+			"entirely_online": false,
+			"on_demand": false,
+			"in_person": false,
+			"regions": null,
+			"regions_description": "",
+			"point": null,
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "",
+			"location_description": "",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": null,
+			"end": null,
+			"project_timing": "",
+			"participation_schedule": "",
+			"time_per_participation": {
+				"value": 250,
+				"label": "One minute"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": {
+			},
+			"activities": {
+			},
+			"special_skills": "",
+			"indoors": false,
+			"outdoors": false,
+			"grp_data": "",
+			"data_results": "",
+			"data_aggregation": {
+			},
+			"data_consent": {
+			},
+			"data_visualization": false,
+			"data_access": {
+			},
+			"data_quality": false,
+			"metadata_publication_url": "",
+			"data_publication_url": "",
+			"data_license": "",
+			"grp_outcomes": "",
+			"intended_outcomes": {
+			},
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": {
+			},
+			"stakeholders": {
+			},
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 7971,
+			"legacy_id": 100007971,
+			"box": 148600,
+			"value": "iSeaTree",
+			"name": "iSeaTree",
+			"slug": "iseatree",
+			"link": "/iseatree",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1683924724378.1108,
+			"updated": 1685107283774.988,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+				"ai",
+				"android",
+				"app",
+				"artificial intelligence",
+				"canopy",
+				"carbon",
+				"change",
+				"cities",
+				"city",
+				"climate",
+				"climate change",
+				"co2",
+				"forest",
+				"h2o",
+				"identification",
+				"ipad",
+				"iphone",
+				"leaf",
+				"maps",
+				"park",
+				"plant",
+				"tree",
+				"trees",
+				"urban",
+				"urban trees",
+				"woods"
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.amazonaws.com/attr/2023-05/About2.jpg",
+			"references": [
+			],
+			"grp_scistarter": "",
+			"duplicate": false,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "203f9e0e-8d27-563b-bc1d-115c05990923",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": false,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "TreeMama.org",
+			"goal": "Help resource managers study and record the benefits of urban trees!",
+			"task": "Collect and track the air pollution, carbon, and water benefits of urban trees!",
+			"description": "'iSeaTree' is an application for identifying and tracking urban trees. It works with the USFS's 'iTree' API to calculate the CO2, H2O, and pollution benefits of trees anywhere within the United States and Canada. It also has built-in tree surveying tools (like an AI to help identify the tree species) which help beginners in entering complete and accurate data about trees in their region. 'iSeaTree' turns app-users into citizen scientists and helps communities protect and preserve their urban canopies.",
+			"image_credit": "Arielle Simmons-Steffen",
+			"grp_web": "",
+			"url": "https://treemama.org/the-tech-treehouse/iseatree/",
+			"video_url": "https://youtu.be/FmJS34PjfhQ",
+			"blog_url": "https://treemama.org",
+			"twitter_name": "TreeMamaSEA",
+			"facebook_page": "https://www.facebook.com/groups/665536430875693/?source_id=106256167661802",
+			"instagram_page": "",
+			"grp_categorization": "",
+			"topics": {
+			},
+			"fields_of_science": {
+			},
+			"practices": {
+			},
+			"practices_how": "'iSeaTree' is a data gathering platform that utilizes the US Forest Service's 'iTree' API to calculate the CO2, H2O, and pollution benefits of trees anywhere within the United States and Canada. By entering all the required data fields a user can submit the data to the USFS's 'iTree' API and have it return the 'tree benefit' results that 'iTree' calculates. All of this information is then saved to a database where resource managers and scientists can access the data to construct land use models and plans.",
+			"search_terms": "",
+			"difficulty": {
+				"value": 1,
+				"label": "Easy"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": {
+			},
+			"signup_url": "https://www.democracylab.org/projects/502",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "Head to treemama.org to learn more about the project.\r\n\r\nCheck out the introductory video on youtube:\r\n\r\nhttps://youtu.be/FmJS34PjfhQ\r\n\r\nThen, download the app and start identifying trees!",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "https://youtu.be/H671xw5Zf_c",
+			"classroom_materials": "https://treemama.org/writings-art/",
+			"consent_statement": "iSeaTree requests that all users who login and use the app understand that tree surveys should only happen on public property (like in the street ROW or in parks) or on private property where landowners have granted permission. Users are also required to consent that any harm done to a tree is not sanctioned nor the responsibility of the app developers.",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "1) an android or ios mobile phone\r\n2) measuring tape OR DBH tape (optional)",
+			"gear": "",
+			"mobile_app_url_android": "https://play.google.com/store/apps/details?id=com.treemama.iseatree&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
+			"mobile_app_url_ios": "https://apps.apple.com/us/app/id1513633272",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "NEAR",
+				"label": "At a location or range"
+			},
+			"entirely_online": false,
+			"on_demand": false,
+			"in_person": false,
+			"regions": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -165.9375, 16.972741 ], [ -166.289063, 74.402163 ], [ -56.25, 74.307353 ], [ -49.571202, 25.30927 ], [ -165.9375, 16.972741 ] ] ] ] }",
+			"regions_description": "",
+			"point": [
+				-110.94453036400265,
+				47.426058115222
+			],
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "parks, schools, cities",
+			"location_description": "United States and Canada",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": 1683924432000.0,
+			"end": null,
+			"project_timing": "",
+			"participation_schedule": "Unspecified",
+			"time_per_participation": {
+				"value": 252,
+				"label": "Five minutes"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": {
+			},
+			"activities": {
+			},
+			"special_skills": "A love of trees!",
+			"indoors": false,
+			"outdoors": true,
+			"grp_data": "",
+			"data_results": "All data is saved in our cloud database and is available via a direct request made on our website.",
+			"data_aggregation": {
+			},
+			"data_consent": {
+			},
+			"data_visualization": true,
+			"data_access": {
+			},
+			"data_quality": false,
+			"metadata_publication_url": "",
+			"data_publication_url": "",
+			"data_license": "MIT No Attribution",
+			"grp_outcomes": "",
+			"intended_outcomes": {
+			},
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": {
+			},
+			"stakeholders": {
+			},
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 7942,
+			"legacy_id": 100007942,
+			"box": 147559,
+			"value": "Peace Boat US - Youth for the SDGs program for the UN Ocean Decade",
+			"name": "Peace Boat US - Youth for the SDGs program for the UN Ocean Decade",
+			"slug": "peace-boat-us-youth-for-the-sdgs-program-for-the-u",
+			"link": "/peace-boat-us-youth-for-the-sdgs-program-for-the-u",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1682385066456.644,
+			"updated": 1682442177331.094,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+				"action",
+				"climate",
+				"decade",
+				"leaders",
+				"ocean",
+				"oceans",
+				"peace",
+				"sdgs",
+				"sustainability",
+				"unitednations",
+				"youth"
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.amazonaws.com/attr/2023-04/UN_Ocean_Decade-_Peace_Boat_US_RONyv78.jpg",
+			"references": [
+			],
+			"grp_scistarter": "",
+			"duplicate": false,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "87b1e5c5-5023-5b85-b747-d3ae67b34e32",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": false,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "Peace Boat US",
+			"goal": "Youth traveling for ocean and climate action",
+			"task": "Observe marine life, ocean currents and learn from communities",
+			"description": "Youth for the SDGs Scholarship\r\n- A program for the United Nations Decade of Ocean Science for Sustainable Development -\r\n\r\nPeace Boat US is excited to announce the launch of a new series of programs as part of the United Nations Decade of Ocean Science for Sustainable Development to be held onboard Peace Boat. Highlighting the theme of this year\u2019s UN World Oceans Day: \u201cPlanet Ocean: Tides are Changing, we seek to raise awareness about Life Below Water and encourage positive action for our blue planet\r\n\r\n\r\n\u200b\r\nDates and Programs for the United Nations Ocean Decade 2023:\r\n\r\n Arctic Voyage:\r\nTilbury (London) UK - Sailing through the Fjords of Norway - Iceland\r\nMay 24 - June 14, 2023\r\n\r\nLatin American Voyage:\r\nPanama - Sailing through the Panama Canal - Guatemala - Mexico\r\nJune 20 - July 5, 2023",
+			"image_credit": "",
+			"grp_web": "",
+			"url": "https://peaceboat-us.org/y4sdgs-114/",
+			"video_url": "https://www.youtube.com/watch?v=MOEYoS_Zbac",
+			"blog_url": "",
+			"twitter_name": "",
+			"facebook_page": "https://www.facebook.com/PeaceBoatUs",
+			"instagram_page": null,
+			"grp_categorization": "",
+			"topics": [
+				{
+					"value": 9,
+					"label": "Ecology & Environment"
+				},
+				{
+					"value": 24,
+					"label": "Education"
+				},
+				{
+					"value": 14,
+					"label": "Ocean, Water, Marine & Terrestrial"
+				}
+			],
+			"fields_of_science": [
+				{
+					"value": 332,
+					"label": "Ecology"
+				},
+				{
+					"value": 330,
+					"label": "Biology"
+				}
+			],
+			"practices": [
+				{
+					"value": 50,
+					"label": "Asking questions"
+				},
+				{
+					"value": 43,
+					"label": "Designing solutions"
+				},
+				{
+					"value": 47,
+					"label": "Planning and carrying out investigations"
+				}
+			],
+			"practices_how": "Youth will participate in citizen science programs in every port of call we visit during the Peace Boat Global Voyage, testing water samples and recording data for the United Nations Decade of Ocean Science for Sustainable Development. Observations, education onboard, lectures, workshops and hands-on experiences in the ports will be included in the program.",
+			"search_terms": "",
+			"difficulty": {
+				"value": 1,
+				"label": "Easy"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": [
+				{
+					"value": 114,
+					"label": "College"
+				},
+				{
+					"value": 115,
+					"label": "Graduate students"
+				}
+			],
+			"signup_url": "https://peaceboat-us.org/y4sdgs-114/",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "Please sign up via the link on our website to join a Global Voyage and apply for the program today! We will have programs every year onboard the Peace Boat.",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "",
+			"classroom_materials": "",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "5000.00000000000000000000000000000000",
+			"materials": "This will include the travel onboard the Peace Boat for the project",
+			"gear": "",
+			"mobile_app_url_android": "",
+			"mobile_app_url_ios": "",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "NEAR",
+				"label": "At a location or range"
+			},
+			"entirely_online": false,
+			"on_demand": false,
+			"in_person": false,
+			"regions": null,
+			"regions_description": "",
+			"point": null,
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "Onboard the Peace Boat and in the ports of call",
+			"location_description": "Arctic (From London through the Fjords of Norway to Iceland)  and Latin America  (From Panama, through the Panama Canal to Guatemala and Mexico)",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": 1684900800000.0,
+			"end": 1688529600000.0,
+			"project_timing": "",
+			"participation_schedule": "Every summer",
+			"time_per_participation": {
+				"value": 249,
+				"label": "6 hours"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": {
+			},
+			"activities": [
+				{
+					"value": 42,
+					"label": "In oceans, streams, rivers, lakes"
+				}
+			],
+			"special_skills": "",
+			"indoors": true,
+			"outdoors": true,
+			"grp_data": "",
+			"data_results": "WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website.",
+			"data_aggregation": [
+				{
+					"value": 103,
+					"label": "Aggregated"
+				},
+				{
+					"value": 102,
+					"label": "Raw"
+				}
+			],
+			"data_consent": [
+				{
+					"value": 105,
+					"label": "Through a generic terms of use agreement"
+				}
+			],
+			"data_visualization": true,
+			"data_access": {
+			},
+			"data_quality": false,
+			"metadata_publication_url": "https://peaceboat-us.org/y4sdgs-114/",
+			"data_publication_url": "https://peaceboat-us.org/y4sdgs-114/",
+			"data_license": "none",
+			"grp_outcomes": "",
+			"intended_outcomes": {
+			},
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": {
+			},
+			"stakeholders": {
+			},
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 7711,
+			"legacy_id": 100007711,
+			"box": 144101,
+			"value": "BMER Flora Research",
+			"name": "BMER Flora Research",
+			"slug": "bmer-flora-research",
+			"link": "/bmer-flora-research",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1677116983090.858,
+			"updated": 1677116983054.445,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.amazonaws.com/attr/2023-02/imported/bmer-flora-research",
+			"references": [
+			],
+			"grp_scistarter": "",
+			"duplicate": true,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "f2b38e5e-4b10-4218-9d14-17f9d3489578",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": false,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "CitSci.org",
+			"goal": "To capture a biological picture of Burton Mesa Ecological Reserve near distinct water features following a historic atmospheric river event in the region.",
+			"task": "Use iNaturalist to capture interesting plants in Lompoc, Ca.",
+			"description": "Two environmental science enthusiasts collecting data on select sites in an ecological reserve to get a better picture of the flora communities and how climate change is impacting them.",
+			"image_credit": "",
+			"grp_web": "",
+			"url": "https://citsci.org/projects/bmer-flora-research",
+			"video_url": "",
+			"blog_url": "",
+			"twitter_name": "",
+			"facebook_page": "",
+			"instagram_page": null,
+			"grp_categorization": "",
+			"topics": {
+			},
+			"fields_of_science": {
+			},
+			"practices": {
+			},
+			"practices_how": "",
+			"search_terms": "",
+			"difficulty": {
+				"value": 1,
+				"label": "Easy"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": {
+			},
+			"signup_url": "",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "",
+			"classroom_materials": "",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "",
+			"gear": "",
+			"mobile_app_url_android": "",
+			"mobile_app_url_ios": "",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "ANY",
+				"label": "Global, anywhere on the planet"
+			},
+			"entirely_online": false,
+			"on_demand": false,
+			"in_person": false,
+			"regions": null,
+			"regions_description": "",
+			"point": null,
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "",
+			"location_description": "",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": null,
+			"end": null,
+			"project_timing": "",
+			"participation_schedule": "",
+			"time_per_participation": {
+				"value": 250,
+				"label": "One minute"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": {
+			},
+			"activities": {
+			},
+			"special_skills": "",
+			"indoors": false,
+			"outdoors": false,
+			"grp_data": "",
+			"data_results": "",
+			"data_aggregation": {
+			},
+			"data_consent": {
+			},
+			"data_visualization": false,
+			"data_access": {
+			},
+			"data_quality": false,
+			"metadata_publication_url": "",
+			"data_publication_url": "",
+			"data_license": "",
+			"grp_outcomes": "",
+			"intended_outcomes": {
+			},
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": {
+			},
+			"stakeholders": {
+			},
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 7606,
+			"legacy_id": 100007606,
+			"box": 141451,
+			"value": "The Bio-Expertise Engine",
+			"name": "The Bio-Expertise Engine",
+			"slug": "the-bio-expertise-engine",
+			"link": "/the-bio-expertise-engine",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1673957764999.771,
+			"updated": 1674496032933.2449,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+				"#animals",
+				"#biodiversity",
+				"#biogeography",
+				"#biolgoy",
+				"#birds",
+				"#botany",
+				"#bugs",
+				"#butterflies",
+				"#citizenscience",
+				"#climate",
+				"#climate_science",
+				"#earth",
+				"#ecology",
+				"#expertise",
+				"#fungi",
+				"#identify",
+				"#indigenous_knowledge",
+				"#insects",
+				"#mammals",
+				"#marine",
+				"#nature",
+				"#natureconservation",
+				"#ocean",
+				"#outdoors",
+				"#planet",
+				"#plants",
+				"#reptiles",
+				"#science",
+				"#species",
+				"#taxonomy"
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.amazonaws.com/attr/2023-01/Dlwcj2kUUAI6Uxv_5SM6sle.jpg",
+			"references": [
+			],
+			"grp_scistarter": "",
+			"duplicate": false,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": false,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "EarthGuardians.LIFE",
+			"goal": "The BEE raises the value of nature by rewarding people for their expertise.",
+			"task": "Help identify QuestaGame sightings via a collective human intelligence system.",
+			"description": "The Bio-Expertise Engine (BEE) seeks to raise the value of nature conservation by rewarding people for their nature expertise.\r\n\r\nBEE helps connect QuestaGame players' sightings with people who know nature. It's a collective human intelligence system that helps get the best identification back to the player as quickly as possible. As an expert, when you help identify sightings through BEE, the benefits are huge!\r\n\r\nYou are not only helping budding naturalists grow their knowledge and ensuring high-quality data for biodiversity researchers, but you are also raising money for your chosen environmental cause (through the Pays to Know Nature Fund)!",
+			"image_credit": "QuestaGame",
+			"grp_web": "",
+			"url": "http://BioExpertise.org",
+			"video_url": "",
+			"blog_url": "",
+			"twitter_name": "",
+			"facebook_page": "",
+			"instagram_page": null,
+			"grp_categorization": "",
+			"topics": [
+				{
+					"value": 21,
+					"label": "Nature & Outdoors"
+				},
+				{
+					"value": 9,
+					"label": "Ecology & Environment"
+				},
+				{
+					"value": 24,
+					"label": "Education"
+				}
+			],
+			"fields_of_science": [
+				{
+					"value": 330,
+					"label": "Biology"
+				},
+				{
+					"value": 332,
+					"label": "Ecology"
+				}
+			],
+			"practices": {
+			},
+			"practices_how": "",
+			"search_terms": "",
+			"difficulty": {
+				"value": 2,
+				"label": "medium"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": [
+				{
+					"value": 111,
+					"label": "Elementary school (6 - 10 years)"
+				},
+				{
+					"value": 112,
+					"label": "Middle school (11 - 13 years)"
+				},
+				{
+					"value": 113,
+					"label": "High school (14 - 17 years)"
+				},
+				{
+					"value": 114,
+					"label": "College"
+				},
+				{
+					"value": 115,
+					"label": "Graduate students"
+				},
+				{
+					"value": 116,
+					"label": "Adults"
+				},
+				{
+					"value": 117,
+					"label": "Families"
+				},
+				{
+					"value": 118,
+					"label": "Seniors"
+				}
+			],
+			"signup_url": "http://BioExpertise.org",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "Keen to get involved but not sure how to use BEE? \r\n\r\nIt is designed to be pretty intuitive, so feel free to jump in and have a go. But if you need a hand, here are some steps to follow:\r\n\r\n1. Go to Bio-Expertise Engine (http://BioExpertise.org)\r\n2. Click 'sign-up' on the left-hand navigation (or if you already have a QuestaGame account, you can log in with that)\r\n3. Select 'Settings' from the left-hand navigation. This will help you filter sightings so that you only see those relevant to your area of interest.\r\n - Select your 'Categories of Expertise' and hit 'save'.\r\n - Click 'Add Region'. Drag and squeeze the grey box to cover your chosen area and hit 'save'.\r\n4. Before you start identifying sightings, be sure also to register for the Pays To Know Nature Fund so that you can earn money for your chosen cause with every correct identification you submit.\r\n5. Now you are ready to identify sightings through either BEE's:\r\n - 'Home' view, which serves up one sighting at a time; or\r\n - 'Browse sightings' view, which offers a grid view of multiple sightings.\r\n6. To identify a sighting:\r\n - First, assess the information provided with the sighting to decide if you are confident in providing an identification. If not, scroll to the bottom and hit 'Skip'. \r\n You can click the arrows next to the image to see multiple photos if provided. And you can click the image for a larger version.\r\n There may be valuable information in the player's field notes.\r\n - If you are confident that you can provide identification, enter the scientific name in the required field. This will search the GBIF database for matching taxa. Simply select the correct taxon. If the search does not give the desired result, consider if GBIF may use a synonym for that species. You can also search by common name.\r\nThe confidence rating will be set to 'I am very confident', but you can lower this confidence rating if required.\r\nThe taxon level will be set automatically based on your selection.\r\n - Add any comments you may have, but these aren't mandatory. \r\n - Hit submit, and identify the next sighting.\r\n7. Remember that you can also view your 'Past work' via the left-hand navigator, and this can be a useful reference if you come across a sighting that looks a bit familiar!",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "",
+			"classroom_materials": "https://docs.google.com/document/d/1GdLk6VV2rqbZwl7pSUjfuOV-8S0Gelk8po7uxBfUlJ0/edit",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "Laptop, tablet or mobile phone.",
+			"gear": "",
+			"mobile_app_url_android": "",
+			"mobile_app_url_ios": "",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "ON",
+				"label": "Online only (The entire activity takes place at a computer or on a smart phone)"
+			},
+			"entirely_online": true,
+			"on_demand": false,
+			"in_person": false,
+			"regions": null,
+			"regions_description": "",
+			"point": null,
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "",
+			"location_description": "",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": null,
+			"end": null,
+			"project_timing": "",
+			"participation_schedule": "",
+			"time_per_participation": {
+				"value": 250,
+				"label": "One minute"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": {
+			},
+			"activities": [
+				{
+					"value": 28,
+					"label": "On a lunch break"
+				},
+				{
+					"value": 31,
+					"label": "At a science center, zoo or aquarium"
+				},
+				{
+					"value": 32,
+					"label": "At school"
+				},
+				{
+					"value": 37,
+					"label": "At home"
+				},
+				{
+					"value": 34,
+					"label": "Exclusively online"
+				}
+			],
+			"special_skills": "Knowledge about nature.",
+			"indoors": false,
+			"outdoors": false,
+			"grp_data": "",
+			"data_results": "We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com.",
+			"data_aggregation": {
+			},
+			"data_consent": [
+				{
+					"value": 105,
+					"label": "Through a generic terms of use agreement"
+				}
+			],
+			"data_visualization": false,
+			"data_access": {
+			},
+			"data_quality": false,
+			"metadata_publication_url": "",
+			"data_publication_url": "",
+			"data_license": "",
+			"grp_outcomes": "",
+			"intended_outcomes": {
+			},
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": {
+			},
+			"stakeholders": {
+			},
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 7553,
+			"legacy_id": 100007553,
+			"box": 138575,
+			"value": "Julia: A Science Journey",
+			"name": "Julia: A Science Journey",
+			"slug": "julia-a-science-journey",
+			"link": "/julia-a-science-journey",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1668241847282.625,
+			"updated": 1679648144807.416,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+				"covid-19",
+				"digital education",
+				"game-based learning",
+				"scientific literacy",
+				"video game"
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.amazonaws.com/attr/2022-11/titulo.jpg",
+			"references": [
+				{
+					"id": 20190,
+					"label": "Steam website",
+					"type": "Other publications",
+					"url": "https://store.steampowered.com/app/2241630/Julia_A_Science_Journey/",
+					"citation": "",
+					"detailed_citation": ""
+				}
+			],
+			"grp_scistarter": "",
+			"duplicate": false,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "e8024afc-3d9e-5ba5-b173-cf512f1ca13c",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": false,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "Universitat de Barcelona",
+			"goal": "To understand how video games can promote critical thinking",
+			"task": "You just need to play the game!",
+			"description": "Julia: a Science Journey is a video game about viruses, society, and life choices. The story begins in 2020 as our main character lives a humdrum teenage life while she deals with high school, her family and her friends. Will you help Julia navigate through the complexities of adult life while the COVID-19 pandemic changes her world forever?\r\n\r\nJulia: ASJ is part of the DiHealthEd project which is an innovative scientific initiative on Digital Education supported by the Catalan Research Agency and  led by the DIDPATRI research group at the Universitat de Barcelona. The mission of DiHealthEd is to evaluate the potential of video game-based learning to promote critical and scientific thinking in the context of the current global emergencies such as the COVID-19 pandemic and climate change.",
+			"image_credit": "CC-BY-SA",
+			"grp_web": "",
+			"url": "https://www.murphystoastgames.com/sheet.php?p=julia_a_science_journey",
+			"video_url": "",
+			"blog_url": "",
+			"twitter_name": "@MtoastGames",
+			"facebook_page": "https://www.facebook.com/murphystoast",
+			"instagram_page": null,
+			"grp_categorization": "",
+			"topics": [
+				{
+					"value": 24,
+					"label": "Education"
+				},
+				{
+					"value": 23,
+					"label": "Health & Medicine"
+				},
+				{
+					"value": 12,
+					"label": "Biology"
+				}
+			],
+			"fields_of_science": [
+				{
+					"value": 330,
+					"label": "Biology"
+				}
+			],
+			"practices": [
+				{
+					"value": 46,
+					"label": "Analyzing and interpreting data"
+				},
+				{
+					"value": 43,
+					"label": "Designing solutions"
+				}
+			],
+			"practices_how": "The project promotes scientific literacy and critical thinking as the participants will play a game which integrates mechanics and content linked to a diversity of knowledge fields such as biology, history, and philosophy. It also fosters curiosity about science and interest on the persons that ultimately become scientists.",
+			"search_terms": "",
+			"difficulty": {
+				"value": 1,
+				"label": "Easy"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": [
+				{
+					"value": 115,
+					"label": "Graduate students"
+				},
+				{
+					"value": 113,
+					"label": "High school (14 - 17 years)"
+				},
+				{
+					"value": 114,
+					"label": "College"
+				},
+				{
+					"value": 116,
+					"label": "Adults"
+				},
+				{
+					"value": 118,
+					"label": "Seniors"
+				},
+				{
+					"value": 117,
+					"label": "Families"
+				},
+				{
+					"value": 112,
+					"label": "Middle school (11 - 13 years)"
+				}
+			],
+			"signup_url": "https://www.murphystoastgames.com/sheet.php?p=julia_a_science_journey",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "Everybody willing to contribute can help us achieve this research objective. How? Simple: just play Julia: A Science Journey! While you play, anonymous information will be recorded about your game choices and the ways you face and master the challenges posed by game mechanics.",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "https://www.murphystoastgames.com/julia_a_science_journey/presskits/julia_asj_presskit_en.zip",
+			"classroom_materials": "https://www.murphystoastgames.com/julia_a_science_journey/demos/julia_asj_guia_didactica.pdf",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "",
+			"gear": "",
+			"mobile_app_url_android": "",
+			"mobile_app_url_ios": "",
+			"mobile_app_url": "https://www.murphystoastgames.com/sheet.php?p=julia_a_science_journey",
+			"grp_where": "",
+			"location_type": {
+				"value": "ON",
+				"label": "Online only (The entire activity takes place at a computer or on a smart phone)"
+			},
+			"entirely_online": true,
+			"on_demand": false,
+			"in_person": false,
+			"regions": null,
+			"regions_description": "",
+			"point": null,
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "",
+			"location_description": "",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": null,
+			"end": null,
+			"project_timing": "",
+			"participation_schedule": "Just once",
+			"time_per_participation": {
+				"value": 210,
+				"label": "1 hour"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": [
+				{
+					"value": 202,
+					"label": "Participated"
+				},
+				{
+					"value": 194,
+					"label": "Joined the project"
+				}
+			],
+			"activities": [
+				{
+					"value": 32,
+					"label": "At school"
+				},
+				{
+					"value": 30,
+					"label": "At night"
+				},
+				{
+					"value": 28,
+					"label": "On a lunch break"
+				},
+				{
+					"value": 37,
+					"label": "At home"
+				}
+			],
+			"special_skills": "None. We want to collect data from a diversity of players so you are not required to have previous experience with video games.",
+			"indoors": false,
+			"outdoors": false,
+			"grp_data": "",
+			"data_results": "It will be openly available as a dataset under an Open Data license at the university data repository.",
+			"data_aggregation": [
+				{
+					"value": 102,
+					"label": "Raw"
+				}
+			],
+			"data_consent": [
+				{
+					"value": 105,
+					"label": "Through a generic terms of use agreement"
+				}
+			],
+			"data_visualization": false,
+			"data_access": [
+				{
+					"value": 108,
+					"label": "Bulk download of all data at once (e.g. by FTP download)"
+				}
+			],
+			"data_quality": false,
+			"metadata_publication_url": "",
+			"data_publication_url": "",
+			"data_license": "Open Data",
+			"grp_outcomes": "",
+			"intended_outcomes": {
+			},
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": {
+			},
+			"stakeholders": {
+			},
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 7230,
+			"legacy_id": 100007230,
+			"box": 137905,
+			"value": "EwA Invasive Flora Patrol",
+			"name": "EwA Invasive Flora Patrol",
+			"slug": "ewa-invasive-herbaceous-monitoring",
+			"link": "/ewa-invasive-herbaceous-monitoring",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1667257207586.913,
+			"updated": 1685635690872.16,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+				"climate change",
+				"habitat degradation",
+				"invasive species",
+				"land use",
+				"monitoring"
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.us-west-2.amazonaws.com/attr/2023-04/EwA-Inv-Flora_708akfD.png",
+			"references": [
+			],
+			"grp_scistarter": "",
+			"duplicate": true,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "6ca9c53c-1d6c-404c-985a-9c7b6aad41c1",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": true,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "Earthwise Aware",
+			"goal": "Help ecological assessment and management of sensitive areas.",
+			"task": "Identify invasive flora",
+			"description": "Document occurrence (location) and density data of invasive flora in urban parks, city gardens, and private backyards...",
+			"image_credit": "Earthwise Aware",
+			"grp_web": "",
+			"url": "https://www.anecdata.org/projects/view/1155",
+			"video_url": "",
+			"blog_url": "https://www.anecdata.org/projects/view/1155/forum/",
+			"twitter_name": "",
+			"facebook_page": "",
+			"instagram_page": "",
+			"grp_categorization": "",
+			"topics": [
+				{
+					"value": 9,
+					"label": "Ecology & Environment"
+				}
+			],
+			"fields_of_science": {
+			},
+			"practices": {
+			},
+			"practices_how": "Species identification. Scientific methods.",
+			"search_terms": "",
+			"difficulty": {
+				"value": 2,
+				"label": "medium"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": [
+				{
+					"value": 113,
+					"label": "High school (14 - 17 years)"
+				},
+				{
+					"value": 114,
+					"label": "College"
+				},
+				{
+					"value": 115,
+					"label": "Graduate students"
+				},
+				{
+					"value": 117,
+					"label": "Families"
+				},
+				{
+					"value": 118,
+					"label": "Seniors"
+				},
+				{
+					"value": 116,
+					"label": "Adults"
+				}
+			],
+			"signup_url": "https://www.eventbrite.com/cc/ewa-urban-nature-participatory-science-1116609",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "Participants in EwA Invasive Flora Monitoring are asked to take a training that helps them build skills to identify invasive flora and follow a scientific protocol to collect information and submit it to the project. Many participants do their training at an in-person session > Join an EwA field orientation. You can also use the provided resource if no training is offered near you.\r\n\r\nIf you are located in the Greater Boston Area, you may also be interested in setting up a study site near you. If so, contact usopen_in_new, and tell us where and why you want to start a systematic survey at your location.\r\n\r\nWho can join?\r\n\r\nYou do not have to be a plant expert to be an observer! The only requirements are:\r\n\r\nYou are located in the Greater Boston Area\r\n* An interest in native plant communities and how to preserve them;\r\n* A willingness to become a trained volunteer and join an EwA field orientation if one is in your area; and\r\n* A commitment to follow the EwA protocol to document invasive species, possibly several times over the course of a year.",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "",
+			"classroom_materials": "",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": true,
+			"participation_prompt": "",
+			"participation_confirmation_message": "Please register as a member on one of our project platforms (whichever you prefer) \r\n* Anecdata platform: https://www.anecdata.org/projects/view/1155\r\n* CitSci platform: https://www.citsci.org/projects/ewa-invasive-flora-monitoring",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "Smart device / upload the app and join project on the app.",
+			"gear": "",
+			"mobile_app_url_android": "https://play.google.com/store/apps/details?id=org.anecdata.mobile",
+			"mobile_app_url_ios": "https://apps.apple.com/us/app/anecdata-org/id1315666791",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "NEAR",
+				"label": "At a location or range"
+			},
+			"entirely_online": false,
+			"on_demand": false,
+			"in_person": false,
+			"regions": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -71.725826, 42.654183 ], [ -71.780776, 42.021196 ], [ -70.541203, 41.522647 ], [ -69.771345, 41.574146 ], [ -70.331577, 42.65707 ], [ -71.725826, 42.654183 ] ] ] ] }",
+			"regions_description": "Boston Area and beyond",
+			"point": [
+				-70.81408277943902,
+				42.12971802987217
+			],
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "Park, backyard, reservations, gardens",
+			"location_description": "Greater Boston Area",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": 1680321600000.0,
+			"end": 1893387600000.0,
+			"project_timing": "",
+			"participation_schedule": "Opportunistic is fine. Once a month preferred.",
+			"time_per_participation": {
+				"value": 240,
+				"label": "Half hour"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": [
+				{
+					"value": 194,
+					"label": "Joined the project"
+				},
+				{
+					"value": 196,
+					"label": "Data collection"
+				},
+				{
+					"value": 202,
+					"label": "Participated"
+				}
+			],
+			"activities": [
+				{
+					"value": 33,
+					"label": "On a walk, run"
+				}
+			],
+			"special_skills": "Know your invasive species, and have rudimentary phenology knowledge",
+			"indoors": false,
+			"outdoors": true,
+			"grp_data": "",
+			"data_results": "Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable.",
+			"data_aggregation": [
+				{
+					"value": 102,
+					"label": "Raw"
+				}
+			],
+			"data_consent": [
+				{
+					"value": 105,
+					"label": "Through a generic terms of use agreement"
+				}
+			],
+			"data_visualization": false,
+			"data_access": [
+				{
+					"value": 108,
+					"label": "Bulk download of all data at once (e.g. by FTP download)"
+				}
+			],
+			"data_quality": false,
+			"metadata_publication_url": "",
+			"data_publication_url": "https://www.anecdata.org/projects/view/1155/data",
+			"data_license": "CC-BY",
+			"grp_outcomes": "",
+			"intended_outcomes": [
+				{
+					"value": 125,
+					"label": "Conservation : policy"
+				},
+				{
+					"value": 126,
+					"label": "Conservation : regulation / mitigation"
+				},
+				{
+					"value": 127,
+					"label": "Conservation : site management / preservation"
+				},
+				{
+					"value": 128,
+					"label": "Conservation : species management"
+				}
+			],
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": [
+				{
+					"value": 148,
+					"label": "Other/none"
+				}
+			],
+			"stakeholders": [
+				{
+					"value": 177,
+					"label": "Community group"
+				},
+				{
+					"value": 179,
+					"label": "Formal non-profit/NGO"
+				},
+				{
+					"value": 184,
+					"label": "State or local government"
+				}
+			],
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 6986,
+			"legacy_id": 100006986,
+			"box": 130465,
+			"value": "Cloudspotting On Mars",
+			"name": "Cloudspotting On Mars",
+			"slug": "cloudspotting-on-mars",
+			"link": "/cloudspotting-on-mars",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1656371347416.5981,
+			"updated": 1676790784661.724,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.amazonaws.com/attr/2022-06/mro_with_arch.png",
+			"references": [
+				{
+					"id": 19849,
+					"label": "Be a Citizen Scientist With the \u201cCloudspotting on Mars\u201d Project",
+					"type": "Other media",
+					"url": "https://www.nasa.gov/stem-ed-resources/be-a-citizen-scientist-with-the-cloudspotting-on-mars-project.html",
+					"citation": "",
+					"detailed_citation": ""
+				}
+			],
+			"grp_scistarter": "",
+			"duplicate": false,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "ad38753d-7a95-5268-a55b-79ec27a2338a",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": false,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "NASA / Zooniverse",
+			"goal": "Identify clouds in Mars's atmosphere.",
+			"task": "Find clouds on Mars to help scientists study the Martian atmosphere.",
+			"description": "Clouds are a familiar feature in the atmospheres of planets. Because they can both warm and cool the atmosphere, they are important for understanding the weather and climate of planets. On Mars, icy clouds can form high in the atmosphere (above 50 km, about 30 miles up), the \"mesosphere,\" called \"mesospheric clouds\". These clouds are interesting for several reasons. Although Mars is a dry planet, there is water vapor in the atmosphere that can form water-ice clouds. However, because the atmosphere of Mars is made up almost entirely (95%) of carbon-dioxide and it is cold, carbon-dioxide ice (think dry ice!) clouds can also form.\r\n\r\nSome important questions about these clouds:\r\n* What causes the atmosphere to get cold enough for carbon-dioxide to freeze out?\r\n* How do clouds change from day to night, or during different seasons, or in some years more than others?\r\n* What are the clouds made of?\r\nOur goal with this project is to first find and map these clouds to create a database that will help answer such questions.\r\n\r\nTo do this, we'll be searching through data acquired by the Mars Climate Sounder (MCS) on the Mars Reconnaissance Orbiter (MRO). MCS is an instrument that peers at the horizon of the planet in the infrared and visible to measure temperature, water-ice, and dust content of the atmosphere on Mars. From nearly the first day that MCS sent data back to Earth, strange features were observed at high altitudes. These features have an arch-like or loop shape to them and have since been recognized to be clouds.",
+			"image_credit": "",
+			"grp_web": "",
+			"url": "https://www.zooniverse.org/projects/marek-slipski/cloudspotting-on-mars",
+			"video_url": "",
+			"blog_url": "https://cloudspotting-on-mars.github.io/",
+			"twitter_name": "@cloudspottingM",
+			"facebook_page": "",
+			"instagram_page": null,
+			"grp_categorization": "",
+			"topics": [
+				{
+					"value": 13,
+					"label": "Astronomy & Space"
+				},
+				{
+					"value": 27,
+					"label": "Climate & Weather"
+				},
+				{
+					"value": 8,
+					"label": "Physics"
+				}
+			],
+			"fields_of_science": [
+				{
+					"value": 331,
+					"label": "Astronomy"
+				},
+				{
+					"value": 328,
+					"label": "Physics"
+				},
+				{
+					"value": 329,
+					"label": "Chemistry"
+				}
+			],
+			"practices": [
+				{
+					"value": 46,
+					"label": "Analyzing and interpreting data"
+				}
+			],
+			"practices_how": "",
+			"search_terms": "",
+			"difficulty": {
+				"value": 1,
+				"label": "Easy"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": [
+				{
+					"value": 114,
+					"label": "College"
+				},
+				{
+					"value": 116,
+					"label": "Adults"
+				},
+				{
+					"value": 118,
+					"label": "Seniors"
+				},
+				{
+					"value": 112,
+					"label": "Middle school (11 - 13 years)"
+				},
+				{
+					"value": 113,
+					"label": "High school (14 - 17 years)"
+				}
+			],
+			"signup_url": "https://www.zooniverse.org/projects/marek-slipski/cloudspotting-on-mars",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "Head to the zooniverse project site, read through the tutorial, and get started: https://www.zooniverse.org/projects/marek-slipski/cloudspotting-on-mars",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "",
+			"classroom_materials": "",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "",
+			"gear": "",
+			"mobile_app_url_android": "",
+			"mobile_app_url_ios": "",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "ON",
+				"label": "Online only (The entire activity takes place at a computer or on a smart phone)"
+			},
+			"entirely_online": true,
+			"on_demand": false,
+			"in_person": false,
+			"regions": null,
+			"regions_description": "",
+			"point": null,
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "",
+			"location_description": "",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": 1656432000000.0,
+			"end": null,
+			"project_timing": "",
+			"participation_schedule": "",
+			"time_per_participation": {
+				"value": 240,
+				"label": "Half hour"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": {
+			},
+			"activities": {
+			},
+			"special_skills": "",
+			"indoors": true,
+			"outdoors": false,
+			"grp_data": "",
+			"data_results": "We plan to aggregate and anonymize the data and make it publicly available on an open archive.",
+			"data_aggregation": {
+			},
+			"data_consent": {
+			},
+			"data_visualization": false,
+			"data_access": {
+			},
+			"data_quality": false,
+			"metadata_publication_url": "",
+			"data_publication_url": "",
+			"data_license": "",
+			"grp_outcomes": "",
+			"intended_outcomes": {
+			},
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": {
+			},
+			"stakeholders": {
+			},
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		},
+		{
+			"id": 6984,
+			"legacy_id": 100006984,
+			"box": 130359,
+			"value": "Time to Restore: Connecting People, Plants, and Pollinators",
+			"name": "Time to Restore: Connecting People, Plants, and Pollinators",
+			"slug": "time-to-restore-connecting-people-plants-and-polli",
+			"link": "/time-to-restore-connecting-people-plants-and-polli",
+			"type": "Project",
+			"options": {
+			},
+			"publish": true,
+			"created": 1656007232381.112,
+			"updated": 1656055977945.882,
+			"component": "ss-project",
+			"members_only": false,
+			"tags": [
+				"flowering",
+				"phenology",
+				"pollinators",
+				"seeds"
+			],
+			"_metadata": "",
+			"image": "https://orrery-media.s3.amazonaws.com/attr/2022-06/NPN_October_06_2012_BrianForbesPowell-11_AFKpS1d.jpg",
+			"references": [
+			],
+			"grp_scistarter": "",
+			"duplicate": false,
+			"ignore_authoritative": false,
+			"redirect": "",
+			"subcomponent": "",
+			"form": null,
+			"guid": "9b873aa0-0c23-53d5-95ae-c12902e8cae7",
+			"opengraph_description": "",
+			"participation_degree": {
+				"value": 1,
+				"label": "Collegial"
+			},
+			"is_test": false,
+			"is_affiliate": false,
+			"is_inaturalist": false,
+			"inat_project_id": 0,
+			"participant_instructions": "",
+			"participant_instructions_email": "",
+			"participant_files": {
+				"Time to Restore priority species": "https://www.usanpn.org/files/npn/TImetoRestoreFlyer.pdf"
+			},
+			"grp_admin": "",
+			"draft": false,
+			"status": {
+				"value": 1,
+				"label": "Active"
+			},
+			"promotion_time": {
+				"value": "ANYTIME",
+				"label": "Promote at any time"
+			},
+			"promotion_target": null,
+			"grp_contact": "",
+			"grp_project": "",
+			"us_federally_funded": false,
+			"presenter": "USA National Phenology Network",
+			"goal": "Help pollinators by tracking flowering and seed timing of plants",
+			"task": "Track flowering and seed timing of one or more nectar plants where you live",
+			"description": "When planting to support pollinators, we need to know which species to plant to provide nectar during critical periods, and how these plant species will respond to changes in climate including more variable weather conditions. A new effort across the South Central US, called Time to Restore: Connecting People, Plants, and Pollinators, seeks to generate better information about flowering and seed timing for critical nectar plants, and the links between this activity and climate.",
+			"image_credit": "Brian F Powell",
+			"grp_web": "",
+			"url": "https://www.usanpn.org/TimetoRestore",
+			"video_url": "",
+			"blog_url": "",
+			"twitter_name": "@USANPN",
+			"facebook_page": "https://www.facebook.com/USANPN",
+			"instagram_page": null,
+			"grp_categorization": "",
+			"topics": [
+				{
+					"value": 9,
+					"label": "Ecology & Environment"
+				},
+				{
+					"value": 16,
+					"label": "Insects & Pollinators"
+				},
+				{
+					"value": 21,
+					"label": "Nature & Outdoors"
+				}
+			],
+			"fields_of_science": [
+				{
+					"value": 332,
+					"label": "Ecology"
+				},
+				{
+					"value": 330,
+					"label": "Biology"
+				}
+			],
+			"practices": [
+				{
+					"value": 47,
+					"label": "Planning and carrying out investigations"
+				},
+				{
+					"value": 50,
+					"label": "Asking questions"
+				}
+			],
+			"practices_how": "Participants can make predictions about when plants will flower and go to seed, and how one year might compare to the next.",
+			"search_terms": "",
+			"difficulty": {
+				"value": 2,
+				"label": "medium"
+			},
+			"diy": false,
+			"grp_joining": "",
+			"audience": [
+				{
+					"value": 111,
+					"label": "Elementary school (6 - 10 years)"
+				},
+				{
+					"value": 112,
+					"label": "Middle school (11 - 13 years)"
+				},
+				{
+					"value": 113,
+					"label": "High school (14 - 17 years)"
+				},
+				{
+					"value": 114,
+					"label": "College"
+				},
+				{
+					"value": 115,
+					"label": "Graduate students"
+				},
+				{
+					"value": 116,
+					"label": "Adults"
+				},
+				{
+					"value": 117,
+					"label": "Families"
+				},
+				{
+					"value": 118,
+					"label": "Seniors"
+				}
+			],
+			"signup_url": "https://www.usanpn.org/TimetoRestore",
+			"prefix_how_to_logged_in": "",
+			"prefix_how_to_logged_out": "",
+			"how_to_join": "1. Visit the Time to Restore landing page to see the priority species we are interested in for this project: https://www.usanpn.org/TimetoRestore\n\n2. Join Nature's Notebook and set up a site and add one or more nectar plants: https://www.usanpn.org/nn/become-observer\n\n3. Make observations once per week, if possible, recording flowering and seed questions. \n\n4. Sign up for Nectar Connectors emails to see results from data collection on these Time to Restore priority species and other nectar species across the country: https://lp.constantcontactpages.com/su/q5UDhyi/NectarConnectors",
+			"howto_video": "",
+			"outcomes_label": "",
+			"outcomes_link": "",
+			"time_required": "",
+			"training_materials": "https://www.usanpn.org/TimetoRestore",
+			"classroom_materials": "",
+			"consent_statement": "",
+			"consent_statement_date": null,
+			"participation_tools": false,
+			"participation_prompt": "",
+			"participation_confirmation_message": "",
+			"participation_notification_email": "",
+			"participation_usage": "",
+			"grp_relations": "",
+			"part_of": null,
+			"associated_projects": {
+			},
+			"associated_tools": {
+			},
+			"grp_needed": "",
+			"total_expense": "0E-32",
+			"materials": "",
+			"gear": "",
+			"mobile_app_url_android": "https://play.google.com/store/apps/details?id=org.usanpn.naturesnotebookmobile&hl=en_US",
+			"mobile_app_url_ios": "https://apps.apple.com/us/app/natures-notebook/id1463430668",
+			"mobile_app_url": "",
+			"grp_where": "",
+			"location_type": {
+				"value": "NEAR",
+				"label": "At a location or range"
+			},
+			"entirely_online": false,
+			"on_demand": false,
+			"in_person": false,
+			"regions": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -109.052124, 36.976365 ], [ -109.129187, 31.301544 ], [ -106.470527, 31.004635 ], [ -102.848583, 28.291387 ], [ -96.837358, 25.158784 ], [ -88.283408, 29.069238 ], [ -88.398999, 30.34155 ], [ -89.439345, 31.169715 ], [ -90.672347, 30.971605 ], [ -90.94207, 32.933921 ], [ -93.908977, 33.127833 ], [ -94.294292, 33.706995 ], [ -94.140166, 37.037926 ], [ -109.052124, 36.976365 ] ] ] ] }",
+			"regions_description": "",
+			"point": [
+				-99.23453852487283,
+				31.90111986552033
+			],
+			"address": "",
+			"city": "",
+			"zip": "",
+			"state": "",
+			"country": "",
+			"other": "",
+			"location_name": "",
+			"location_landuse": "Any location where you can find these nectar plant species",
+			"location_description": "States of New Mexico, Oklahoma, Texas, and Louisiana",
+			"geographic_scope": {
+				"value": 144,
+				"label": "International"
+			},
+			"united_nations_region": {
+			},
+			"grp_when": "",
+			"begin": 1655967600000.0,
+			"end": 1767164400000.0,
+			"project_timing": "",
+			"participation_schedule": "Once per week is preferred, but any contributions are welcome",
+			"time_per_participation": {
+				"value": 252,
+				"label": "Five minutes"
+			},
+			"year_started": 0,
+			"month_completed": 0,
+			"year_completed": 0,
+			"grp_skills": "",
+			"participation_tasks": [
+				{
+					"value": 202,
+					"label": "Participated"
+				},
+				{
+					"value": 196,
+					"label": "Data collection"
+				},
+				{
+					"value": 194,
+					"label": "Joined the project"
+				}
+			],
+			"activities": [
+				{
+					"value": 28,
+					"label": "On a lunch break"
+				},
+				{
+					"value": 32,
+					"label": "At school"
+				},
+				{
+					"value": 33,
+					"label": "On a walk, run"
+				},
+				{
+					"value": 37,
+					"label": "At home"
+				},
+				{
+					"value": 40,
+					"label": "On a hike"
+				}
+			],
+			"special_skills": "Participants need to be able to locate and identify one or more of the priority nectar plant species.",
+			"indoors": false,
+			"outdoors": true,
+			"grp_data": "",
+			"data_results": "The data are made publicly available via USA National Phenology Network tools.",
+			"data_aggregation": [
+				{
+					"value": 103,
+					"label": "Aggregated"
+				},
+				{
+					"value": 102,
+					"label": "Raw"
+				}
+			],
+			"data_consent": [
+				{
+					"value": 105,
+					"label": "Through a generic terms of use agreement"
+				}
+			],
+			"data_visualization": false,
+			"data_access": [
+				{
+					"value": 108,
+					"label": "Bulk download of all data at once (e.g. by FTP download)"
+				},
+				{
+					"value": 110,
+					"label": "User-customizable services for computation"
+				},
+				{
+					"value": 109,
+					"label": "User-customizable download of selected parts"
+				}
+			],
+			"data_quality": false,
+			"metadata_publication_url": "https://www.usanpn.org/data/observational",
+			"data_publication_url": "https://www.usanpn.org/data/observational",
+			"data_license": "",
+			"grp_outcomes": "",
+			"intended_outcomes": {
+			},
+			"outcome_other": "",
+			"grp_sponsors": "",
+			"university_affiliation": "",
+			"sponsors": {
+			},
+			"stakeholders": {
+			},
+			"circuit_id": "",
+			"sustainable_development_goals": ""
+		}
+	]
+}
