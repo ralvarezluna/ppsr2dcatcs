@@ -6,7 +6,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.annotation.Documented;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
@@ -136,12 +135,13 @@ public class ParserManager {
 				csproject.getProjectmedia().add(pmedia1);
 				
 				//Adding geographic references to csproject
-				//The model loaded only defines a coordenate point, for that reason is repeated for both attributes
+				//The model loaded only defines a coordinate point, for that reason is repeated for both attributes
 				ProjectGeographicLocation pgeo = ppsrmetamodelFactory.eINSTANCE.createProjectGeographicLocation();
 				pgeo.setProjectPinLatitude(readJSONDecimalObjects(aux, "point",0));
 				pgeo.setProjectPinLongitude(readJSONDecimalObjects(aux, "point",1));
 				if(!aux.get("regions").equals(null))
 				pgeo.setProjectGeographicCoverage(aux.getString("regions"));
+				else pgeo.setProjectGeographicCoverage("undefined");
 				pgeo.setProjectGeographicCoverageCentroidLatitude(readJSONDecimalObjects(aux, "point",0));
 				pgeo.setProjectGeographicCoverageCentroidLongitude(readJSONDecimalObjects(aux, "point",0));
 	

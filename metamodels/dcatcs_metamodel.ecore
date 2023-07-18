@@ -2,70 +2,99 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="dcatcs" nsURI="com.dcatcs.model" nsPrefix="dcatcs">
   <eClassifiers xsi:type="ecore:EClass" name="Resource" abstract="true">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactPoint" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="keyword" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="landingPage" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="conformsTo" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactPoint" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="keyword" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="landingPage" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="conformsTo" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="identifier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="language" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Language"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="releaseDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="language" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Language"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="releaseDate" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="updateModificationDate"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasPart" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        ordered="false" unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasPart" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Dataset" eSuperTypes="#//Resource">
     <eStructuralFeatures xsi:type="ecore:EReference" name="distribution" upperBound="-1"
         eType="#//Distribution" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accrualPeriodicity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="spatial" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="temporal" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
-        unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="wasGeneratedBy" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accrualPeriodicity" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="spatial" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="temporal" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="wasGeneratedBy" ordered="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="DataService" eSuperTypes="#//Resource">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endpointDescription" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endpointDescription" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="endpointURL" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessRights" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="license" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessRights" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="license" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Distribution">
     <eStructuralFeatures xsi:type="ecore:EReference" name="datadistributionservice"
         upperBound="-1" eType="#//DataDistributionService" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessURL" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="byteSize" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"
-        unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="downloadURL" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mediaType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="conformsTo" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="format" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="issued" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="license" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modified" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
-        unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rights" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
-        unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessURL" ordered="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="byteSize" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="downloadURL" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mediaType" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="conformsTo" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="format" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="issued" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="license" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modified" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rights" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="DataDistributionService" eSuperTypes="#//DataService"/>
   <eClassifiers xsi:type="ecore:EClass" name="DiscoveryService" eSuperTypes="#//DataDistributionService"/>
   <eClassifiers xsi:type="ecore:EClass" name="CSDataset" eSuperTypes="#//Dataset">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="abstract" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="abstract" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="bibliographicCitation"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="methodType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="methodType" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" unsettable="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="methodSpecification" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"
         unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasHypothesis" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasHypothesis" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasInstrument" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasInstrument" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         unsettable="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="dataQualityAssuranceMethod"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        ordered="false" unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="dataManagementPlan" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Catalog" eSuperTypes="#//Dataset">
@@ -74,34 +103,41 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="dataservice" eType="#//DataService"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="catalog" upperBound="-1"
         eType="#//Catalog" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="resource" lowerBound="1"
-        upperBound="-1" eType="#//Resource" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="catalogrecord" lowerBound="1"
-        upperBound="-1" eType="#//CatalogRecord" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="homePage" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="catalogrecord" upperBound="-1"
+        eType="#//CatalogRecord" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="homePage" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CatalogRecord">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="issued" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modified" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="issued" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modified" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
         unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="resource" eType="#//Resource"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CSCatalog" eSuperTypes="#//Catalog">
     <eStructuralFeatures xsi:type="ecore:EReference" name="csproject" lowerBound="1"
         upperBound="-1" eType="#//CSProject" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="programOrCampaign" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CSProject" eSuperTypes="#//Resource">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectAim" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="difficultyLevel" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
-        unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectStartDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectEndDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
-        unsettable="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectScienceType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unRegions" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
-        unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectAim" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="difficultyLevel" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectStartDate" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectEndDate" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate" unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectScienceType" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unRegions" ordered="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" unsettable="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectLocality" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         unsettable="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="projectmedia" ordered="false"
@@ -113,7 +149,8 @@
         <details key="documentation" value="Globally unique identifier (GUID) for the project. System generated."/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectDateCreated" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectDateCreated" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="The date and time that the record was created in the database. Uses the ISO 8601:2004 (E) dateTime standard"/>
       </eAnnotations>
@@ -125,13 +162,16 @@
         eType="#//ContactPoint" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ProjectMedia">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectMediaFile" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectMediaFile" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
       <eAnnotations source="http://xmlns.com/foaf/spec#term_img"/>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectMediaType" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectMediaType" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnyURI">
       <eAnnotations source="http://xmlns.com/foaf/0.1/#term_depiction"/>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectMediaCredit" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectMediaCredit" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
       <eAnnotations source="http://purl.org/dc/terms/bibliographicCitation"/>
     </eStructuralFeatures>
   </eClassifiers>
@@ -139,44 +179,55 @@
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
       <details key="documentation" value="User-defined geospatial representation point location or geographic extent of the project. Point locations are typically represented as map pins and extents as polygons. Uses OGC GeoAPI (09-083r3) standard.&#xA;This is a class object."/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectPinLatitude" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Decimal"
-        unsettable="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectPinLatitude" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Decimal"
+        defaultValueLiteral="0" unsettable="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Latitude coordinate of the point location of the project. Typically this is where the project is hosted, e.g., a home institution. Uses OGC GeoAPI (09-083r3) standard."/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectPinLongitude" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Decimal"
-        unsettable="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectPinLongitude" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Decimal"
+        defaultValueLiteral="0" unsettable="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Longitude coordinate of the point location of the project. Typically this is where the project is hosted, e.g. a home institution. Uses OGC GeoAPI (09-083r3) standard."/>
       </eAnnotations>
     </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectGeographicCoverage"
         ordered="false" unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
-        unsettable="true">
+        defaultValueLiteral="undefined" unsettable="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="User-defined geospatial representation(s) of the project area footprint/extent. Coverage is typically represented in a GeoJSON object which has a centroid coordinate ('centre') and a definition of the boundary of the shape. Uses OGC GeoAPI (09-083r3) standard."/>
       </eAnnotations>
     </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectGeographicCoverageCentroidLatitude"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Decimal"
-        unsettable="true">
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Decimal"
+        defaultValueLiteral="0" unsettable="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Latitude coordinate of the centroid of the project extent area. Latitude coordinate in geographic decimal degrees for the center or home base of the project best representing the project's location as a point. Uses OGC GeoAPI (09-083r3) standard."/>
       </eAnnotations>
     </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="projectGeographicCoverageCentroidLongitude"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Decimal">
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Decimal"
+        defaultValueLiteral="0">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Longitude coordinate of the centroid of the project extent area. Longitude coordinate in geographic decimal degrees for the center or home base of the project best representing the project's location as a point. Uses OGC GeoAPI (09-083r3) standard."/>
       </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ContactPoint">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="meansOfContact" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactDetails" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactPointType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactEmail" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactName" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="undefined"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="meansOfContact" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="undefined"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactDetails" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="undefined"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactPointType" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="undefined"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contactEmail" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="undefined"/>
   </eClassifiers>
 </ecore:EPackage>

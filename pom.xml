@@ -79,6 +79,48 @@
     <artifactId>org.eclipse.core.runtime</artifactId>
     <version>3.27.0</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-model -->
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-model</artifactId>
+    <version>4.3.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-repository-sail -->
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-repository-sail</artifactId>
+    <version>4.3.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-rio-turtle -->
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-rio-turtle</artifactId>
+    <version>4.3.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-util -->
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-util</artifactId>
+    <version>3.7.7</version>
+</dependency>
+       <dependency>
+           <groupId>org.slf4j</groupId>
+           <artifactId>slf4j-api</artifactId>
+           <version>1.7.30</version>
+       </dependency>
+
+       <dependency>
+           <groupId>org.slf4j</groupId>
+           <artifactId>slf4j-simple</artifactId>
+           <version>1.7.30</version>
+       </dependency>
 
 
   </dependencies>
