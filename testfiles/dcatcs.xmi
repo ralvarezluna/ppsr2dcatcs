@@ -5,9 +5,7 @@
       <unRegions xsi:nil="true"/>
       <projectmedia projectMediaFile="https://orrery-media.s3.us-west-2.amazonaws.com/attr/2023-05/Miing_Bee_-_Claire_ONeill.jpeg" projectMediaType="Image" projectMediaCredit="&#xa9; Claire O'Neill"/>
       <projectmedia projectMediaFile="https://tinyurl.com/EwA-Buggy-App-Tutorial" projectMediaType="Video" projectMediaCredit="Earthwise Aware"/>
-      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverageCentroidLatitude="0" projectGeographicCoverageCentroidLongitude="0">
-        <projectGeographicCoverage xsi:nil="true"/>
-      </projectgeographiclocation>
+      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverage="undefined" projectGeographicCoverageCentroidLatitude="0"/>
       <contacts contactName="Earthwise Aware" contactDetails="https://twitter.com/EarthwiseAware" contactPointType="Twitter"/>
       <contacts contactName="Earthwise Aware" contactDetails="https://www.facebook.com/EarthwiseAware" contactPointType="Facebook"/>
       <contacts contactName="Earthwise Aware" contactDetails="" contactPointType="Instagram"/>
@@ -16,9 +14,7 @@
       <unRegions xsi:nil="true"/>
       <projectmedia projectMediaFile="https://orrery-media.s3.us-west-2.amazonaws.com/attr/2023-05/imported/ewa-pheno-lite_tppF0rE" projectMediaType="Image" projectMediaCredit=""/>
       <projectmedia projectMediaFile="" projectMediaType="Video" projectMediaCredit="Earthwise Aware"/>
-      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverageCentroidLatitude="0" projectGeographicCoverageCentroidLongitude="0">
-        <projectGeographicCoverage xsi:nil="true"/>
-      </projectgeographiclocation>
+      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverage="undefined" projectGeographicCoverageCentroidLatitude="0"/>
       <contacts contactName="Earthwise Aware" contactDetails="" contactPointType="Twitter"/>
       <contacts contactName="Earthwise Aware" contactDetails="" contactPointType="Facebook"/>
       <contacts contactName="Earthwise Aware" contactDetails="" contactPointType="Instagram"/>
@@ -36,9 +32,7 @@
       <unRegions xsi:nil="true"/>
       <projectmedia projectMediaFile="https://orrery-media.s3.amazonaws.com/attr/2023-04/UN_Ocean_Decade-_Peace_Boat_US_RONyv78.jpg" projectMediaType="Image" projectMediaCredit=""/>
       <projectmedia projectMediaFile="https://www.youtube.com/watch?v=MOEYoS_Zbac" projectMediaType="Video" projectMediaCredit="Peace Boat US"/>
-      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverageCentroidLatitude="0" projectGeographicCoverageCentroidLongitude="0">
-        <projectGeographicCoverage xsi:nil="true"/>
-      </projectgeographiclocation>
+      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverage="undefined" projectGeographicCoverageCentroidLatitude="0"/>
       <contacts contactName="Peace Boat US" contactDetails="" contactPointType="Twitter"/>
       <contacts contactName="Peace Boat US" contactDetails="https://www.facebook.com/PeaceBoatUs" contactPointType="Facebook"/>
       <contacts/>
@@ -47,9 +41,7 @@
       <unRegions xsi:nil="true"/>
       <projectmedia projectMediaFile="https://orrery-media.s3.amazonaws.com/attr/2023-02/imported/bmer-flora-research" projectMediaType="Image" projectMediaCredit=""/>
       <projectmedia projectMediaFile="" projectMediaType="Video" projectMediaCredit="CitSci.org"/>
-      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverageCentroidLatitude="0" projectGeographicCoverageCentroidLongitude="0">
-        <projectGeographicCoverage xsi:nil="true"/>
-      </projectgeographiclocation>
+      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverage="undefined" projectGeographicCoverageCentroidLatitude="0"/>
       <contacts contactName="CitSci.org" contactDetails="" contactPointType="Twitter"/>
       <contacts contactName="CitSci.org" contactDetails="" contactPointType="Facebook"/>
       <contacts/>
@@ -58,9 +50,7 @@
       <unRegions xsi:nil="true"/>
       <projectmedia projectMediaFile="https://orrery-media.s3.amazonaws.com/attr/2023-01/Dlwcj2kUUAI6Uxv_5SM6sle.jpg" projectMediaType="Image" projectMediaCredit="QuestaGame"/>
       <projectmedia projectMediaFile="" projectMediaType="Video" projectMediaCredit="EarthGuardians.LIFE"/>
-      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverageCentroidLatitude="0" projectGeographicCoverageCentroidLongitude="0">
-        <projectGeographicCoverage xsi:nil="true"/>
-      </projectgeographiclocation>
+      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverage="undefined" projectGeographicCoverageCentroidLatitude="0"/>
       <contacts contactName="EarthGuardians.LIFE" contactDetails="" contactPointType="Twitter"/>
       <contacts contactName="EarthGuardians.LIFE" contactDetails="" contactPointType="Facebook"/>
       <contacts/>
@@ -69,9 +59,7 @@
       <unRegions xsi:nil="true"/>
       <projectmedia projectMediaFile="https://orrery-media.s3.amazonaws.com/attr/2022-11/titulo.jpg" projectMediaType="Image" projectMediaCredit="CC-BY-SA"/>
       <projectmedia projectMediaFile="" projectMediaType="Video" projectMediaCredit="Universitat de Barcelona"/>
-      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverageCentroidLatitude="0" projectGeographicCoverageCentroidLongitude="0">
-        <projectGeographicCoverage xsi:nil="true"/>
-      </projectgeographiclocation>
+      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverage="undefined" projectGeographicCoverageCentroidLatitude="0"/>
       <contacts contactName="Universitat de Barcelona" contactDetails="@MtoastGames" contactPointType="Twitter"/>
       <contacts contactName="Universitat de Barcelona" contactDetails="https://www.facebook.com/murphystoast" contactPointType="Facebook"/>
       <contacts/>
@@ -89,9 +77,7 @@
       <unRegions xsi:nil="true"/>
       <projectmedia projectMediaFile="https://orrery-media.s3.amazonaws.com/attr/2022-06/mro_with_arch.png" projectMediaType="Image" projectMediaCredit=""/>
       <projectmedia projectMediaFile="" projectMediaType="Video" projectMediaCredit="NASA / Zooniverse"/>
-      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverageCentroidLatitude="0" projectGeographicCoverageCentroidLongitude="0">
-        <projectGeographicCoverage xsi:nil="true"/>
-      </projectgeographiclocation>
+      <projectgeographiclocation projectPinLatitude="0" projectPinLongitude="0" projectGeographicCoverage="undefined" projectGeographicCoverageCentroidLatitude="0"/>
       <contacts contactName="NASA / Zooniverse" contactDetails="@cloudspottingM" contactPointType="Twitter"/>
       <contacts contactName="NASA / Zooniverse" contactDetails="" contactPointType="Facebook"/>
       <contacts/>
@@ -108,9 +94,7 @@
   </dcatcs:CSCatalog>
   <dcatcs:CatalogRecord description="Document arthropod activity, abundance, phenology, and hosts." title="9c659748-33f3-4857-9ed0-ebab41db1fc4" resource="/2"/>
   <dcatcs:CSDataset description="" identifier="9c659748-33f3-4857-9ed0-ebab41db1fc4dataset" abstract="Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://www.anecdata.org/projects/view/1208/data" format="undefined" license="Licensed under Creative Commons Attribution 4.0 International License.">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="https://www.anecdata.org/projects/view/1208/data" format="undefined" license="Licensed under Creative Commons Attribution 4.0 International License."/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -119,9 +103,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Observe familiar flora species throughout the seasons, and record their developmental phases at regular time intervals." title="a4fc092b-234b-45ec-93f0-8ad759ac0d22" resource="/4"/>
   <dcatcs:CSDataset description="" identifier="a4fc092b-234b-45ec-93f0-8ad759ac0d22dataset" abstract="" dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license="">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="" format="undefined" license=""/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -130,9 +112,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Collect and track the air pollution, carbon, and water benefits of urban trees!" title="203f9e0e-8d27-563b-bc1d-115c05990923" resource="/6"/>
   <dcatcs:CSDataset description="" identifier="203f9e0e-8d27-563b-bc1d-115c05990923dataset" abstract="All data is saved in our cloud database and is available via a direct request made on our website." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license="MIT No Attribution">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="" format="undefined" license="MIT No Attribution"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -141,9 +121,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Observe marine life, ocean currents and learn from communities" title="87b1e5c5-5023-5b85-b747-d3ae67b34e32" resource="/8"/>
   <dcatcs:CSDataset description="https://peaceboat-us.org/y4sdgs-114/" identifier="87b1e5c5-5023-5b85-b747-d3ae67b34e32dataset" abstract="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://peaceboat-us.org/y4sdgs-114/" format="undefined" license="none">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="https://peaceboat-us.org/y4sdgs-114/" format="undefined" license="none"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -152,9 +130,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Use iNaturalist to capture interesting plants in Lompoc, Ca." title="f2b38e5e-4b10-4218-9d14-17f9d3489578" resource="/10"/>
   <dcatcs:CSDataset description="" identifier="f2b38e5e-4b10-4218-9d14-17f9d3489578dataset" abstract="" dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license="">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="" format="undefined" license=""/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -163,9 +139,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Help identify QuestaGame sightings via a collective human intelligence system." title="d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a" resource="/12"/>
   <dcatcs:CSDataset description="" identifier="d9f1928e-55f1-5a6e-995d-a6f88cd6cb7adataset" abstract="We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license="">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="" format="undefined" license=""/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -174,9 +148,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="You just need to play the game!" title="e8024afc-3d9e-5ba5-b173-cf512f1ca13c" resource="/14"/>
   <dcatcs:CSDataset description="" identifier="e8024afc-3d9e-5ba5-b173-cf512f1ca13cdataset" abstract="It will be openly available as a dataset under an Open Data license at the university data repository." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license="Open Data">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="" format="undefined" license="Open Data"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -185,9 +157,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Identify invasive flora" title="6ca9c53c-1d6c-404c-985a-9c7b6aad41c1" resource="/16"/>
   <dcatcs:CSDataset description="" identifier="6ca9c53c-1d6c-404c-985a-9c7b6aad41c1dataset" abstract="Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://www.anecdata.org/projects/view/1155/data" format="undefined" license="CC-BY">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="https://www.anecdata.org/projects/view/1155/data" format="undefined" license="CC-BY"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -196,9 +166,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Find clouds on Mars to help scientists study the Martian atmosphere." title="ad38753d-7a95-5268-a55b-79ec27a2338a" resource="/18"/>
   <dcatcs:CSDataset description="" identifier="ad38753d-7a95-5268-a55b-79ec27a2338adataset" abstract="We plan to aggregate and anonymize the data and make it publicly available on an open archive." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license="">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="" format="undefined" license=""/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -207,9 +175,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Track flowering and seed timing of one or more nectar plants where you live" title="9b873aa0-0c23-53d5-95ae-c12902e8cae7" resource="/20"/>
   <dcatcs:CSDataset description="https://www.usanpn.org/data/observational" identifier="9b873aa0-0c23-53d5-95ae-c12902e8cae7dataset" abstract="The data are made publicly available via USA National Phenology Network tools." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://www.usanpn.org/data/observational" format="undefined" license="">
-      <rights xsi:nil="true"/>
-    </distribution>
+    <distribution downloadURL="https://www.usanpn.org/data/observational" format="undefined" license=""/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>

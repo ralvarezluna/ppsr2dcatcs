@@ -6,9 +6,11 @@ import dcatcs.*;
 
 
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 
 import org.eclipse.emf.common.util.Diagnostic;
 import org.eclipse.emf.common.util.URI;
@@ -47,15 +49,20 @@ public class LoadFromXMI {
 	 * Load all the argument file paths or URIs as instances of the model.
 	 * <!-- end-user-doc -->
 	 * @param args the file paths or URIs.
-	 * @throws FileNotFoundException 
+	 * @throws IOException 
 	 * @generated
 	 */
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) throws IOException {
+		
+		String path = new File("").getAbsolutePath();
+		InputStream input = new FileInputStream(path + "/config.properties");
+		Properties prop = new Properties();
+		prop.load(input);
+		//args = new String[1];
+		//args[0] = path + prop.getProperty("dcatcs.minstance");
+		String rdfout = path + prop.getProperty("dcatcs.rdf");
 		// Create a resource set to hold the resources.
-		//
 		ResourceSet resourceSet = new ResourceSetImpl();
-		args = new String[1];
-		args[0] = "/home/rey/eclipse-workspace/ppsr2dcatlauncher/testfiles/dcatcs.xmi";
 		// Register the appropriate resource factory to handle all file extensions.
 		//
 		resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put
@@ -151,7 +158,7 @@ public class LoadFromXMI {
 				   
 				    // return the Model object
 				    Model m = builder.build();
-				    FileOutputStream out1 = new FileOutputStream("/home/rey/eclipse-workspace/ppsr2dcatlauncher/testfiles/file.ttl");
+				    FileOutputStream out1 = new FileOutputStream(rdfout);
 				    Rio.write(m, out1, RDFFormat.TURTLE);
 					for (EObject eObject : resource.getContents()) {
 						if(eObject.eClass().getName().equals("CSCatalog"))

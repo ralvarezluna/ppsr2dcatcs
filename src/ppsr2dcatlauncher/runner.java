@@ -4,18 +4,11 @@ import java.io.IOException;
 
 import javax.xml.datatype.DatatypeConfigurationException;
 
-import java.io.FileOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.util.Properties;
 
-import org.eclipse.rdf4j.model.Model;
-import org.eclipse.rdf4j.model.Statement;
-import org.eclipse.rdf4j.model.util.ModelBuilder;
-import org.eclipse.rdf4j.model.vocabulary.DCAT;
-import org.eclipse.rdf4j.model.vocabulary.FOAF;
-import org.eclipse.rdf4j.model.vocabulary.RDF;
-import org.eclipse.rdf4j.rio.RDFFormat;
-import org.eclipse.rdf4j.rio.RDFHandlerException;
-import org.eclipse.rdf4j.rio.RDFWriter;
-import org.eclipse.rdf4j.rio.Rio;
 
 import ualberta.edu.guana.tools.atl.ATLLauncher;
 
@@ -25,17 +18,23 @@ public class runner {
 		
 		ParserManager pm = new ParserManager();
 		//Path for the origin JSON file from PPSR 
-		String jsonIN = "/home/rey/eclipse-workspace/ppsr2dcatlauncher/testfiles/input_projects.json";
+		String path = new File("").getAbsolutePath();
+		InputStream input = new FileInputStream(path + "/config.properties");
+		Properties prop = new Properties();
+		prop.load(input);
+		String jsonIN = path + prop.getProperty("ppsr.json");
+		System.out.println("JSON file to load from: " + jsonIN);
 		//Path for writing the XMI instance loaded from the JSON
-		String xmiOUT = "/home/rey/eclipse-workspace/ppsr2dcatlauncher/testfiles/ppsrcore.xmi";
+		String xmiOUT = path + prop.getProperty("ppsr.minstance");
+		System.out.println("PPSR M Instance file to load from: " + xmiOUT);
 		//PPSR metamodel ecore file path
-		String ecoreIN = "/home/rey/eclipse-workspace/ppsr2dcatlauncher/metamodels/ppsr_metamodel.ecore";
+		String ecoreIN = path + prop.getProperty("ppsr.mm");
 		//DCATCS metamodel ecore file path
-		String ecoreOUT = "/home/rey/eclipse-workspace/ppsr2dcatlauncher/metamodels/dcatcs_metamodel.ecore";
+		String ecoreOUT = path + prop.getProperty("dcatcs.mm");
 		//XMI of DCATCS obtained by the transformation
-		String dcatcsXMI = "/home/rey/eclipse-workspace/ppsr2dcatlauncher/testfiles/dcatcs.xmi";
+		String dcatcsXMI = path + prop.getProperty("dcatcs.minstance");
 		//Path of the transformation ATL rules
-		String atlEsp = "/home/rey/eclipse-workspace/ppsr2dcatlauncher/transf/";
+		String atlEsp = path + prop.getProperty("transf.dir");
 		//Name of the ATL module
 		String atlModule = "ppsr2dcatcs";
 		ATLLauncher launcher = new ATLLauncher();
@@ -50,14 +49,17 @@ public class runner {
 			launcher.registerOutputMetamodel(ecoreOUT);
 			//Launching ATL transformation
 			launcher.launch(ecoreIN,xmiOUT, ecoreOUT, dcatcsXMI, atlEsp, atlModule);
-			
+			System.out.println("Transformation success, file generated: " + dcatcsXMI );
 		} catch (IOException | DatatypeConfigurationException e) {
 			
 			e.printStackTrace();
 		}
-		
+		//If you require load more than 1 file, put in args all the file paths
+		args = new String[1];
+		args[0] = dcatcsXMI;
+		LoadFromXMI.main(args);
 	
-
+		
 	}
 	
 	

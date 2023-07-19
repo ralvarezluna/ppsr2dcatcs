@@ -1,0 +1,105 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+
+<cs:Generate%20ID> a "cs:Catalog";
+  dcterms:title "Matches";
+  <cs:project> "9c659748-33f3-4857-9ed0-ebab41db1fc4", "a4fc092b-234b-45ec-93f0-8ad759ac0d22",
+    "203f9e0e-8d27-563b-bc1d-115c05990923", "87b1e5c5-5023-5b85-b747-d3ae67b34e32", "f2b38e5e-4b10-4218-9d14-17f9d3489578",
+    "d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a", "e8024afc-3d9e-5ba5-b173-cf512f1ca13c", "6ca9c53c-1d6c-404c-985a-9c7b6aad41c1",
+    "ad38753d-7a95-5268-a55b-79ec27a2338a", "9b873aa0-0c23-53d5-95ae-c12902e8cae7" .
+
+<cs:9c659748-33f3-4857-9ed0-ebab41db1fc4> a "cs:project";
+  dcterms:abstract "Help EwA build arthropod interaction networks.";
+  prov:startedAtTime "Thu Jun 01 17:28:21 CEST 2023";
+  dcat:contactPoint "contact";
+  dcterms:creator "Earthwise Aware";
+  foaf:OnlineAccount "https://twitter.com/EarthwiseAware", "https://www.facebook.com/EarthwiseAware",
+    "";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "0 0", "undefined" .
+
+<cs:a4fc092b-234b-45ec-93f0-8ad759ac0d22> a "cs:project";
+  dcterms:abstract "Document the phenology of local flora species so that we can better understand the timing of seasonal events in relat...";
+  prov:startedAtTime "Tue May 23 20:07:52 CEST 2023";
+  dcat:contactPoint "contact";
+  dcterms:creator "Earthwise Aware";
+  foaf:OnlineAccount "";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "0 0", "undefined" .
+
+<cs:203f9e0e-8d27-563b-bc1d-115c05990923> a "cs:project";
+  dcterms:abstract "Help resource managers study and record the benefits of urban trees!";
+  prov:startedAtTime "Fri May 12 22:47:12 CEST 2023";
+  dcat:contactPoint "contact";
+  dcterms:creator "TreeMama.org";
+  foaf:OnlineAccount "TreeMamaSEA", "https://www.facebook.com/groups/665536430875693/?source_id=106256167661802",
+    "";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "-110.94453036400265 47.426058115222", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -165.9375, 16.972741 ], [ -166.289063, 74.402163 ], [ -56.25, 74.307353 ], [ -49.571202, 25.30927 ], [ -165.9375, 16.972741 ] ] ] ] }" .
+
+<cs:87b1e5c5-5023-5b85-b747-d3ae67b34e32> a "cs:project";
+  dcterms:abstract "Youth traveling for ocean and climate action";
+  prov:startedAtTime "Wed May 24 06:00:00 CEST 2023";
+  dcat:contactPoint "contact";
+  dcterms:creator "Peace Boat US", "undefined";
+  foaf:OnlineAccount "", "https://www.facebook.com/PeaceBoatUs", "undefined";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "0 0", "undefined" .
+
+<cs:f2b38e5e-4b10-4218-9d14-17f9d3489578> a "cs:project";
+  dcterms:abstract "To capture a biological picture of Burton Mesa Ecological Reserve near distinct water features following a historic atmospheric river event in the region.";
+  prov:startedAtTime "Thu Feb 23 02:49:43 CET 2023";
+  dcat:contactPoint "contact";
+  dcterms:creator "CitSci.org", "undefined";
+  foaf:OnlineAccount "", "undefined";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "0 0", "undefined" .
+
+<cs:d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a> a "cs:project";
+  dcterms:abstract "The BEE raises the value of nature by rewarding people for their expertise.";
+  prov:startedAtTime "Mon Jan 23 18:47:12 CET 2023";
+  dcat:contactPoint "contact";
+  dcterms:creator "EarthGuardians.LIFE", "undefined";
+  foaf:OnlineAccount "", "undefined";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "0 0", "undefined" .
+
+<cs:e8024afc-3d9e-5ba5-b173-cf512f1ca13c> a "cs:project";
+  dcterms:abstract "To understand how video games can promote critical thinking";
+  prov:startedAtTime "Fri Mar 24 09:55:44 CET 2023";
+  dcat:contactPoint "contact";
+  dcterms:creator "Universitat de Barcelona", "undefined";
+  foaf:OnlineAccount "@MtoastGames", "https://www.facebook.com/murphystoast", "undefined";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "0 0", "undefined" .
+
+<cs:6ca9c53c-1d6c-404c-985a-9c7b6aad41c1> a "cs:project";
+  dcterms:abstract "Help ecological assessment and management of sensitive areas.";
+  prov:startedAtTime "Sat Apr 01 06:00:00 CEST 2023";
+  dcat:contactPoint "contact";
+  dcterms:creator "Earthwise Aware";
+  foaf:OnlineAccount "";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "-70.81408277943902 42.12971802987217", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -71.725826, 42.654183 ], [ -71.780776, 42.021196 ], [ -70.541203, 41.522647 ], [ -69.771345, 41.574146 ], [ -70.331577, 42.65707 ], [ -71.725826, 42.654183 ] ] ] ] }" .
+
+<cs:ad38753d-7a95-5268-a55b-79ec27a2338a> a "cs:project";
+  dcterms:abstract "Identify clouds in Mars's atmosphere.";
+  prov:startedAtTime "Tue Jun 28 18:00:00 CEST 2022";
+  dcat:contactPoint "contact";
+  dcterms:creator "NASA / Zooniverse", "undefined";
+  foaf:OnlineAccount "@cloudspottingM", "", "undefined";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "0 0", "undefined" .
+
+<cs:9b873aa0-0c23-53d5-95ae-c12902e8cae7> a "cs:project";
+  dcterms:abstract "Help pollinators by tracking flowering and seed timing of plants";
+  prov:startedAtTime "Thu Jun 23 09:00:00 CEST 2022";
+  dcat:contactPoint "contact";
+  dcterms:creator "USA National Phenology Network", "undefined";
+  foaf:OnlineAccount "@USANPN", "https://www.facebook.com/USANPN", "undefined";
+  dcterms:Location "geographicLocation";
+  geosparql:wktLiteral "-99.23453852487283 31.90111986552033", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -109.052124, 36.976365 ], [ -109.129187, 31.301544 ], [ -106.470527, 31.004635 ], [ -102.848583, 28.291387 ], [ -96.837358, 25.158784 ], [ -88.283408, 29.069238 ], [ -88.398999, 30.34155 ], [ -89.439345, 31.169715 ], [ -90.672347, 30.971605 ], [ -90.94207, 32.933921 ], [ -93.908977, 33.127833 ], [ -94.294292, 33.706995 ], [ -94.140166, 37.037926 ], [ -109.052124, 36.976365 ] ] ] ] }" .

@@ -78,7 +78,7 @@ public class ParserManager {
 	{
         	InputStream is = new FileInputStream(jsource);
             String jsonTxt = IOUtils.toString(is, "UTF-8");
-            System.out.println(jsonTxt);
+            //System.out.println(jsonTxt);
             JSONObject json = new JSONObject(jsonTxt);       
             return json;    
 	}
@@ -224,8 +224,7 @@ public class ParserManager {
 				program.getCsproject().add(csproject);
 				
 		}
-        System.out.println("Proyectos cargados"); 
-        System.out.println(program.getCsproject().size()); 
+        System.out.println("Loaded projects from json: " + program.getCsproject().size());  
         
 	}
  
@@ -240,7 +239,7 @@ public class ParserManager {
 	    res.load(null);
 	    
 	    EPackage metapackage = (EPackage)res.getContents().get(0);
-	    System.out.println("Meta Package Name "+metapackage.getName());
+	    System.out.println("Loading resources from "+ metapackage.getName());
 	    
 	    resourseSet.getPackageRegistry().put(metapackage.getNsURI(), 
 	    metapackage); 
