@@ -93,8 +93,8 @@
     </csproject>
   </dcatcs:CSCatalog>
   <dcatcs:CatalogRecord description="Document arthropod activity, abundance, phenology, and hosts." title="9c659748-33f3-4857-9ed0-ebab41db1fc4" resource="/2"/>
-  <dcatcs:CSDataset description="" identifier="9c659748-33f3-4857-9ed0-ebab41db1fc4dataset" abstract="Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://www.anecdata.org/projects/view/1208/data" format="undefined" license="Licensed under Creative Commons Attribution 4.0 International License."/>
+  <dcatcs:CSDataset description="" identifier="9c659748-33f3-4857-9ed0-ebab41db1fc4" title="EwA Buggy" abstract="Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms." dataQualityAssuranceMethod="false">
+    <distribution downloadURL="https://www.anecdata.org/projects/view/1208/data" description="Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms." format="undefined" license="Licensed under Creative Commons Attribution 4.0 International License." title="EwA Buggy"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -102,8 +102,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Observe familiar flora species throughout the seasons, and record their developmental phases at regular time intervals." title="a4fc092b-234b-45ec-93f0-8ad759ac0d22" resource="/4"/>
-  <dcatcs:CSDataset description="" identifier="a4fc092b-234b-45ec-93f0-8ad759ac0d22dataset" abstract="" dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license=""/>
+  <dcatcs:CSDataset description="" identifier="a4fc092b-234b-45ec-93f0-8ad759ac0d22" title="EwA Pheno Lite" abstract="" dataQualityAssuranceMethod="false">
+    <distribution downloadURL="" description="" format="undefined" license="" title="EwA Pheno Lite"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -111,8 +111,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Collect and track the air pollution, carbon, and water benefits of urban trees!" title="203f9e0e-8d27-563b-bc1d-115c05990923" resource="/6"/>
-  <dcatcs:CSDataset description="" identifier="203f9e0e-8d27-563b-bc1d-115c05990923dataset" abstract="All data is saved in our cloud database and is available via a direct request made on our website." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license="MIT No Attribution"/>
+  <dcatcs:CSDataset description="" identifier="203f9e0e-8d27-563b-bc1d-115c05990923" title="iSeaTree" abstract="All data is saved in our cloud database and is available via a direct request made on our website." dataQualityAssuranceMethod="false">
+    <distribution downloadURL="" description="All data is saved in our cloud database and is available via a direct request made on our website." format="undefined" license="MIT No Attribution" title="iSeaTree"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -120,8 +120,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Observe marine life, ocean currents and learn from communities" title="87b1e5c5-5023-5b85-b747-d3ae67b34e32" resource="/8"/>
-  <dcatcs:CSDataset description="https://peaceboat-us.org/y4sdgs-114/" identifier="87b1e5c5-5023-5b85-b747-d3ae67b34e32dataset" abstract="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://peaceboat-us.org/y4sdgs-114/" format="undefined" license="none"/>
+  <dcatcs:CSDataset description="https://peaceboat-us.org/y4sdgs-114/" identifier="87b1e5c5-5023-5b85-b747-d3ae67b34e32" title="Peace Boat US - Youth for the SDGs program for the UN Ocean Decade" abstract="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." dataQualityAssuranceMethod="false">
+    <distribution downloadURL="https://peaceboat-us.org/y4sdgs-114/" description="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." format="CSV" license="none" title="Peace Boat US - Youth for the SDGs program for the UN Ocean Decade"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -129,8 +129,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Use iNaturalist to capture interesting plants in Lompoc, Ca." title="f2b38e5e-4b10-4218-9d14-17f9d3489578" resource="/10"/>
-  <dcatcs:CSDataset description="" identifier="f2b38e5e-4b10-4218-9d14-17f9d3489578dataset" abstract="" dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license=""/>
+  <dcatcs:CSDataset description="" identifier="f2b38e5e-4b10-4218-9d14-17f9d3489578" title="BMER Flora Research" abstract="" dataQualityAssuranceMethod="false">
+    <distribution downloadURL="" description="" format="undefined" license="" title="BMER Flora Research"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -138,8 +138,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Help identify QuestaGame sightings via a collective human intelligence system." title="d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a" resource="/12"/>
-  <dcatcs:CSDataset description="" identifier="d9f1928e-55f1-5a6e-995d-a6f88cd6cb7adataset" abstract="We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license=""/>
+  <dcatcs:CSDataset description="" identifier="d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a" title="The Bio-Expertise Engine" abstract="We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com." dataQualityAssuranceMethod="false">
+    <distribution downloadURL="" description="We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com." format="undefined" license="" title="The Bio-Expertise Engine"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -147,8 +147,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="You just need to play the game!" title="e8024afc-3d9e-5ba5-b173-cf512f1ca13c" resource="/14"/>
-  <dcatcs:CSDataset description="" identifier="e8024afc-3d9e-5ba5-b173-cf512f1ca13cdataset" abstract="It will be openly available as a dataset under an Open Data license at the university data repository." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license="Open Data"/>
+  <dcatcs:CSDataset description="" identifier="e8024afc-3d9e-5ba5-b173-cf512f1ca13c" title="Julia: A Science Journey" abstract="It will be openly available as a dataset under an Open Data license at the university data repository." dataQualityAssuranceMethod="false">
+    <distribution downloadURL="" description="It will be openly available as a dataset under an Open Data license at the university data repository." format="undefined" license="Open Data" title="Julia: A Science Journey"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -156,8 +156,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Identify invasive flora" title="6ca9c53c-1d6c-404c-985a-9c7b6aad41c1" resource="/16"/>
-  <dcatcs:CSDataset description="" identifier="6ca9c53c-1d6c-404c-985a-9c7b6aad41c1dataset" abstract="Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://www.anecdata.org/projects/view/1155/data" format="undefined" license="CC-BY"/>
+  <dcatcs:CSDataset description="" identifier="6ca9c53c-1d6c-404c-985a-9c7b6aad41c1" title="EwA Invasive Flora Patrol" abstract="Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable." dataQualityAssuranceMethod="false">
+    <distribution downloadURL="https://www.anecdata.org/projects/view/1155/data" description="Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable." format="undefined" license="CC-BY" title="EwA Invasive Flora Patrol"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -165,8 +165,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Find clouds on Mars to help scientists study the Martian atmosphere." title="ad38753d-7a95-5268-a55b-79ec27a2338a" resource="/18"/>
-  <dcatcs:CSDataset description="" identifier="ad38753d-7a95-5268-a55b-79ec27a2338adataset" abstract="We plan to aggregate and anonymize the data and make it publicly available on an open archive." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="" format="undefined" license=""/>
+  <dcatcs:CSDataset description="" identifier="ad38753d-7a95-5268-a55b-79ec27a2338a" title="Cloudspotting On Mars" abstract="We plan to aggregate and anonymize the data and make it publicly available on an open archive." dataQualityAssuranceMethod="false">
+    <distribution downloadURL="" description="We plan to aggregate and anonymize the data and make it publicly available on an open archive." format="undefined" license="" title="Cloudspotting On Mars"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>
@@ -174,8 +174,8 @@
     <hasInstrument xsi:nil="true"/>
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Track flowering and seed timing of one or more nectar plants where you live" title="9b873aa0-0c23-53d5-95ae-c12902e8cae7" resource="/20"/>
-  <dcatcs:CSDataset description="https://www.usanpn.org/data/observational" identifier="9b873aa0-0c23-53d5-95ae-c12902e8cae7dataset" abstract="The data are made publicly available via USA National Phenology Network tools." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://www.usanpn.org/data/observational" format="undefined" license=""/>
+  <dcatcs:CSDataset description="https://www.usanpn.org/data/observational" identifier="9b873aa0-0c23-53d5-95ae-c12902e8cae7" title="Time to Restore: Connecting People, Plants, and Pollinators" abstract="The data are made publicly available via USA National Phenology Network tools." dataQualityAssuranceMethod="false">
+    <distribution downloadURL="https://www.usanpn.org/data/observational" description="The data are made publicly available via USA National Phenology Network tools." format="undefined" license="" title="Time to Restore: Connecting People, Plants, and Pollinators"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>

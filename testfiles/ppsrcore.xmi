@@ -6,7 +6,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="https://tinyurl.com/EwA-Buggy-App-Tutorial" projectMediaCredit="Earthwise Aware"/>
     <activity activityId="Document arthropod activity, abundance, phenology, and hosts.">
       <datasetmetadataschema observationalDataModel="">
-        <dmmcoreterms identifier="https://www.anecdata.org/projects/view/1208/data" abstract="Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms." accessRights="[User-customizable download of selected parts, Bulk download of all data at once (e.g. by FTP download)]" license="Licensed under Creative Commons Attribution 4.0 International License."/>
+        <dmmcoreterms identifier="https://www.anecdata.org/projects/view/1208/data" title="EwA Buggy" abstract="Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms." accessRights="[User-customizable download of selected parts, Bulk download of all data at once (e.g. by FTP download)]" license="Licensed under Creative Commons Attribution 4.0 International License."/>
         <methodspecification samplingProtocolMethod="[Asking questions, Defining problems, Planning and carrying out investigations, Analyzing and interpreting data, Using mathematics and computational thinking, Constructing explanations]" methodAbstract="Co-created scientific processes." methodDocUrl=""/>
         <dmmextensionterms downloadURL="https://www.anecdata.org/projects/view/1208/data" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -21,7 +21,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="" projectMediaCredit="Earthwise Aware"/>
     <activity activityId="Observe familiar flora species throughout the seasons, and record their developmental phases at regular time intervals.">
       <datasetmetadataschema observationalDataModel="">
-        <dmmcoreterms identifier="" abstract="" accessRights="[]" license=""/>
+        <dmmcoreterms identifier="" title="EwA Pheno Lite" abstract="" accessRights="[]" license=""/>
         <methodspecification samplingProtocolMethod="[]" methodAbstract="" methodDocUrl=""/>
         <dmmextensionterms downloadURL="" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -36,7 +36,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="https://youtu.be/FmJS34PjfhQ" projectMediaCredit="TreeMama.org"/>
     <activity activityId="Collect and track the air pollution, carbon, and water benefits of urban trees!">
       <datasetmetadataschema observationalDataModel="">
-        <dmmcoreterms identifier="" abstract="All data is saved in our cloud database and is available via a direct request made on our website." accessRights="[]" license="MIT No Attribution"/>
+        <dmmcoreterms identifier="" title="iSeaTree" abstract="All data is saved in our cloud database and is available via a direct request made on our website." accessRights="[]" license="MIT No Attribution"/>
         <methodspecification samplingProtocolMethod="[]" methodAbstract="'iSeaTree' is a data gathering platform that utilizes the US Forest Service's 'iTree' API to calculate the CO2, H2O, and pollution benefits of trees anywhere within the United States and Canada. By entering all the required data fields a user can submit the data to the USFS's 'iTree' API and have it return the 'tree benefit' results that 'iTree' calculates. All of this information is then saved to a database where resource managers and scientists can access the data to construct land use models and plans." methodDocUrl=""/>
         <dmmextensionterms downloadURL="" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -51,7 +51,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="https://www.youtube.com/watch?v=MOEYoS_Zbac" projectMediaCredit="Peace Boat US"/>
     <activity activityId="Observe marine life, ocean currents and learn from communities">
       <datasetmetadataschema observationalDataModel="https://peaceboat-us.org/y4sdgs-114/">
-        <dmmcoreterms identifier="https://peaceboat-us.org/y4sdgs-114/" abstract="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." accessRights="[]" license="none"/>
+        <dmmcoreterms identifier="https://peaceboat-us.org/y4sdgs-114/" title="Peace Boat US - Youth for the SDGs program for the UN Ocean Decade" abstract="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." accessRights="[]" license="none"/>
         <methodspecification samplingProtocolMethod="[Asking questions, Designing solutions, Planning and carrying out investigations]" methodAbstract="Youth will participate in citizen science programs in every port of call we visit during the Peace Boat Global Voyage, testing water samples and recording data for the United Nations Decade of Ocean Science for Sustainable Development. Observations, education onboard, lectures, workshops and hands-on experiences in the ports will be included in the program." methodDocUrl=""/>
         <dmmextensionterms downloadURL="https://peaceboat-us.org/y4sdgs-114/" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -66,7 +66,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="" projectMediaCredit="CitSci.org"/>
     <activity activityId="Use iNaturalist to capture interesting plants in Lompoc, Ca.">
       <datasetmetadataschema observationalDataModel="">
-        <dmmcoreterms identifier="" abstract="" accessRights="[]" license=""/>
+        <dmmcoreterms identifier="" title="BMER Flora Research" abstract="" accessRights="[]" license=""/>
         <methodspecification samplingProtocolMethod="[]" methodAbstract="" methodDocUrl=""/>
         <dmmextensionterms downloadURL="" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -81,7 +81,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="" projectMediaCredit="EarthGuardians.LIFE"/>
     <activity activityId="Help identify QuestaGame sightings via a collective human intelligence system.">
       <datasetmetadataschema observationalDataModel="">
-        <dmmcoreterms identifier="" abstract="We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com." accessRights="[]" license=""/>
+        <dmmcoreterms identifier="" title="The Bio-Expertise Engine" abstract="We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com." accessRights="[]" license=""/>
         <methodspecification samplingProtocolMethod="[]" methodAbstract="" methodDocUrl=""/>
         <dmmextensionterms downloadURL="" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -96,7 +96,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="" projectMediaCredit="Universitat de Barcelona"/>
     <activity activityId="You just need to play the game!">
       <datasetmetadataschema observationalDataModel="">
-        <dmmcoreterms identifier="" abstract="It will be openly available as a dataset under an Open Data license at the university data repository." accessRights="Bulk download of all data at once (e.g. by FTP download)" license="Open Data"/>
+        <dmmcoreterms identifier="" title="Julia: A Science Journey" abstract="It will be openly available as a dataset under an Open Data license at the university data repository." accessRights="Bulk download of all data at once (e.g. by FTP download)" license="Open Data"/>
         <methodspecification samplingProtocolMethod="[Analyzing and interpreting data, Designing solutions]" methodAbstract="The project promotes scientific literacy and critical thinking as the participants will play a game which integrates mechanics and content linked to a diversity of knowledge fields such as biology, history, and philosophy. It also fosters curiosity about science and interest on the persons that ultimately become scientists." methodDocUrl=""/>
         <dmmextensionterms downloadURL="" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -111,7 +111,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="" projectMediaCredit="Earthwise Aware"/>
     <activity activityId="Identify invasive flora">
       <datasetmetadataschema observationalDataModel="">
-        <dmmcoreterms identifier="https://www.anecdata.org/projects/view/1155/data" abstract="Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable." accessRights="Bulk download of all data at once (e.g. by FTP download)" license="CC-BY"/>
+        <dmmcoreterms identifier="https://www.anecdata.org/projects/view/1155/data" title="EwA Invasive Flora Patrol" abstract="Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable." accessRights="Bulk download of all data at once (e.g. by FTP download)" license="CC-BY"/>
         <methodspecification samplingProtocolMethod="[]" methodAbstract="Species identification. Scientific methods." methodDocUrl=""/>
         <dmmextensionterms downloadURL="https://www.anecdata.org/projects/view/1155/data" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -126,7 +126,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="" projectMediaCredit="NASA / Zooniverse"/>
     <activity activityId="Find clouds on Mars to help scientists study the Martian atmosphere.">
       <datasetmetadataschema observationalDataModel="">
-        <dmmcoreterms identifier="" abstract="We plan to aggregate and anonymize the data and make it publicly available on an open archive." accessRights="[]" license=""/>
+        <dmmcoreterms identifier="" title="Cloudspotting On Mars" abstract="We plan to aggregate and anonymize the data and make it publicly available on an open archive." accessRights="[]" license=""/>
         <methodspecification samplingProtocolMethod="Analyzing and interpreting data" methodAbstract="" methodDocUrl=""/>
         <dmmextensionterms downloadURL="" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>
@@ -141,7 +141,7 @@
     <projectmedia projectMediaType="Video" projectMediaFile="" projectMediaCredit="USA National Phenology Network"/>
     <activity activityId="Track flowering and seed timing of one or more nectar plants where you live">
       <datasetmetadataschema observationalDataModel="https://www.usanpn.org/data/observational">
-        <dmmcoreterms identifier="https://www.usanpn.org/data/observational" abstract="The data are made publicly available via USA National Phenology Network tools." accessRights="[Bulk download of all data at once (e.g. by FTP download), User-customizable services for computation, User-customizable download of selected parts]" license=""/>
+        <dmmcoreterms identifier="https://www.usanpn.org/data/observational" title="Time to Restore: Connecting People, Plants, and Pollinators" abstract="The data are made publicly available via USA National Phenology Network tools." accessRights="[Bulk download of all data at once (e.g. by FTP download), User-customizable services for computation, User-customizable download of selected parts]" license=""/>
         <methodspecification samplingProtocolMethod="[Planning and carrying out investigations, Asking questions]" methodAbstract="Participants can make predictions about when plants will flower and go to seed, and how one year might compare to the next." methodDocUrl="https://www.usanpn.org/files/npn/TImetoRestoreFlyer.pdf"/>
         <dmmextensionterms downloadURL="https://www.usanpn.org/data/observational" dataQualityAssuranceMethod="false"/>
       </datasetmetadataschema>

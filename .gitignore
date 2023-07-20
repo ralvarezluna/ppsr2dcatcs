@@ -26,6 +26,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+AG*
+*.csv
 
 # External tool builders
 .externalToolBuilders/

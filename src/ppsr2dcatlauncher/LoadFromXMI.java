@@ -4,12 +4,14 @@ package ppsr2dcatlauncher;
 
 import dcatcs.*;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.channels.Channels;
+import java.nio.channels.ReadableByteChannel;
+import java.net.*;
 import java.util.Properties;
 
 import org.eclipse.emf.common.util.Diagnostic;
@@ -52,14 +54,16 @@ public class LoadFromXMI {
 	 * @throws IOException 
 	 * @generated
 	 */
+	final static String path = new File("").getAbsolutePath();
+	final static Properties prop = new Properties();
+	
 	public static void main(String[] args) throws IOException {
 		
-		String path = new File("").getAbsolutePath();
 		InputStream input = new FileInputStream(path + "/config.properties");
-		Properties prop = new Properties();
+		//Properties prop = new Properties();
 		prop.load(input);
-		//args = new String[1];
-		//args[0] = path + prop.getProperty("dcatcs.minstance");
+		args = new String[1];
+		args[0] = path + prop.getProperty("dcatcs.minstance");
 		String rdfout = path + prop.getProperty("dcatcs.rdf");
 		// Create a resource set to hold the resources.
 		ResourceSet resourceSet = new ResourceSetImpl();
@@ -119,11 +123,14 @@ public class LoadFromXMI {
 					builder.setNamespace(PROV.NS);
 					builder.setNamespace(LOCN.NS);
 					builder.setNamespace("geosparql", "http://www.opengis.net/ont/geosparql#");
+					builder.setNamespace("proj:ResearchProject", "https://linked.data.gov.au/def/project#ResearchProject");
 					
 					//The xmi model has a CSCatalog with they projects, Datasets and Distributions
 					CSCatalog cat = (CSCatalog) updatedModel.getContents().get(0);
-					builder.namedGraph("cs:catalog").subject("cs:"+ cat.getIdentifier().toString()).add(DCTERMS.TITLE, cat.getTitle());
-					builder.defaultGraph().subject("cs:"+ cat.getIdentifier().toString()).add(RDF.TYPE, "cs:Catalog");
+					builder.namedGraph("cs:catalog").subject("cs:"+ cat.getIdentifier().toString())
+					.add(RDF.TYPE, DCAT.CATALOG)
+					.add(DCTERMS.TITLE, cat.getTitle());
+					builder.defaultGraph().subject("cs:"+ cat.getIdentifier().toString());
 					//iteration over csprojects collection
 					cat.getCsproject().forEach(projectElement -> {
 						String pjSubject = "cs:"+ projectElement.getIdentifier().toString();
@@ -153,16 +160,63 @@ public class LoadFromXMI {
 							.add(GEO.WKT_LITERAL, geo.getProjectGeographicCoverage())
 							;
 						});
+						
+						////adding project media
+						projectElement.getProjectmedia().forEach(media -> {
+							builder.namedGraph("cs:project").subject(pjSubject)
+							.add(FOAF.IMAGE, "projectMedia")
+							.add(DCTERMS.MEDIA_TYPE_OR_EXTENT, media.getProjectMediaType())
+							.add(DCTERMS.SOURCE, media.getProjectMediaFile())
+							.add(DCTERMS.CREATOR, media.getProjectMediaCredit())
+							;
+						});
 					});
-				 
+					
+					for (int j = 1; j < updatedModel.getContents().size(); j++) {	
+						Object modelElem = updatedModel.getContents().get(j);
+							//adding datasets
+							if (modelElem instanceof CSDataset) {
+							CSDataset data = (CSDataset) modelElem;
+							builder.namedGraph("cs:catalog").subject("cs:"+ cat.getIdentifier().toString())
+							.add(DCAT.DATASET, data.getIdentifier());
+							builder.namedGraph("dcat:Dataset").subject(":"+data.getIdentifier())
+							.add(RDF.TYPE, DCAT.DATASET)
+							.add(PROV.WAS_GENERATED_BY, data.getIdentifier())
+							.add(DCTERMS.ABSTRACT, data.getAbstract())
+							//.add(DCAT.TEMPORAL_RESOLUTION, data.getAccrualPeriodicity());
+							.add(DCTERMS.DESCRIPTION, data.getDescription())
+							.add(FOAF.PLAN, data.getDataQualityAssuranceMethod());
+							//adding distributions
+							
+							data.getDistribution().forEach(dist -> {
+								builder.namedGraph("dcat:Dataset").subject(":"+data.getIdentifier())
+								.add(RDF.TYPE, DCAT.DISTRIBUTION)
+								.add(DCAT.DOWNLOAD_URL, dist.getDownloadURL())
+								.add(DCTERMS.LICENSE, dist.getLicense())
+								.add(DCTERMS.FORMAT, dist.getFormat());
+								try {
+									checkDataService(dist, builder);
+								} catch (IOException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
+							});
+							
+							data.getDistribution().forEach(dist -> {
+								
+							});
+						}
+							if (modelElem instanceof CatalogRecord) {
+								CatalogRecord record = (CatalogRecord) modelElem;
+								//Define if properties are well defined as this class is optional in DCAT
+							}
+					}
 				   
-				    // return the Model object
+				    // return and serialize the Model object
 				    Model m = builder.build();
 				    FileOutputStream out1 = new FileOutputStream(rdfout);
 				    Rio.write(m, out1, RDFFormat.TURTLE);
 					for (EObject eObject : resource.getContents()) {
-						if(eObject.eClass().getName().equals("CSCatalog"))
-							System.out.println("POSITIVO");
 						Diagnostic diagnostic = Diagnostician.INSTANCE.validate(eObject);
 						if (diagnostic.getSeverity() != Diagnostic.OK) {
 							printDiagnostic(diagnostic, "");
@@ -179,6 +233,24 @@ public class LoadFromXMI {
 		}
 	}
 	
+	private static void checkDataService(Distribution dist, ModelBuilder builder) throws IOException {
+		if(dist.getFormat().equals("CSV")) {
+			String title = dist.getTitle().replaceAll(" ", "");
+			System.out.print(title);
+			builder.namedGraph("dcat:Dataservice").subject(":"+dist.getDownloadURL())
+			.add(RDF.TYPE, DCAT.DATA_SERVICE)
+			.add(DCAT.ENDPOINT_DESCRIPTION, dist.getDescription())
+			.add(DCAT.ACCESS_SERVICE, prop.getProperty("api.basedir") + title);
+			URL website = new URL(dist.getDownloadURL());
+			ReadableByteChannel rbc = Channels.newChannel(website.openStream());
+			FileOutputStream fos = new FileOutputStream(dist.getTitle().concat(".csv"));
+			fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+			fos.close();
+			//Calling the java proccess for generating the APIs from the CSVs downloaded
+			Process proc = Runtime.getRuntime().exec("java -jar "+ path + "/apigen/ag.jar csv2api" + title.concat(".csv"));
+		}
+	}
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * Prints diagnostics with indentation.

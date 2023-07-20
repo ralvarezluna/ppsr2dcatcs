@@ -4,10 +4,15 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <https://linked.data.gov.au/def/project#ResearchProject> .
 
-<cs:Generate%20ID> a "cs:Catalog";
+<cs:Generate%20ID> a dcat:Catalog;
   dcterms:title "Matches";
   <cs:project> "9c659748-33f3-4857-9ed0-ebab41db1fc4", "a4fc092b-234b-45ec-93f0-8ad759ac0d22",
+    "203f9e0e-8d27-563b-bc1d-115c05990923", "87b1e5c5-5023-5b85-b747-d3ae67b34e32", "f2b38e5e-4b10-4218-9d14-17f9d3489578",
+    "d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a", "e8024afc-3d9e-5ba5-b173-cf512f1ca13c", "6ca9c53c-1d6c-404c-985a-9c7b6aad41c1",
+    "ad38753d-7a95-5268-a55b-79ec27a2338a", "9b873aa0-0c23-53d5-95ae-c12902e8cae7";
+  dcat:Dataset "9c659748-33f3-4857-9ed0-ebab41db1fc4", "a4fc092b-234b-45ec-93f0-8ad759ac0d22",
     "203f9e0e-8d27-563b-bc1d-115c05990923", "87b1e5c5-5023-5b85-b747-d3ae67b34e32", "f2b38e5e-4b10-4218-9d14-17f9d3489578",
     "d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a", "e8024afc-3d9e-5ba5-b173-cf512f1ca13c", "6ca9c53c-1d6c-404c-985a-9c7b6aad41c1",
     "ad38753d-7a95-5268-a55b-79ec27a2338a", "9b873aa0-0c23-53d5-95ae-c12902e8cae7" .
@@ -16,66 +21,92 @@
   dcterms:abstract "Help EwA build arthropod interaction networks.";
   prov:startedAtTime "Thu Jun 01 17:28:21 CEST 2023";
   dcat:contactPoint "contact";
-  dcterms:creator "Earthwise Aware";
+  dcterms:creator "Earthwise Aware", "© Claire O'Neill";
   foaf:OnlineAccount "https://twitter.com/EarthwiseAware", "https://www.facebook.com/EarthwiseAware",
     "";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "0 0", "undefined" .
+  geosparql:wktLiteral "0 0", "undefined";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.us-west-2.amazonaws.com/attr/2023-05/Miing_Bee_-_Claire_ONeill.jpeg",
+    "https://tinyurl.com/EwA-Buggy-App-Tutorial" .
 
 <cs:a4fc092b-234b-45ec-93f0-8ad759ac0d22> a "cs:project";
   dcterms:abstract "Document the phenology of local flora species so that we can better understand the timing of seasonal events in relat...";
   prov:startedAtTime "Tue May 23 20:07:52 CEST 2023";
   dcat:contactPoint "contact";
-  dcterms:creator "Earthwise Aware";
+  dcterms:creator "Earthwise Aware", "";
   foaf:OnlineAccount "";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "0 0", "undefined" .
+  geosparql:wktLiteral "0 0", "undefined";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.us-west-2.amazonaws.com/attr/2023-05/imported/ewa-pheno-lite_tppF0rE",
+    "" .
 
 <cs:203f9e0e-8d27-563b-bc1d-115c05990923> a "cs:project";
   dcterms:abstract "Help resource managers study and record the benefits of urban trees!";
   prov:startedAtTime "Fri May 12 22:47:12 CEST 2023";
   dcat:contactPoint "contact";
-  dcterms:creator "TreeMama.org";
+  dcterms:creator "TreeMama.org", "Arielle Simmons-Steffen";
   foaf:OnlineAccount "TreeMamaSEA", "https://www.facebook.com/groups/665536430875693/?source_id=106256167661802",
     "";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "-110.94453036400265 47.426058115222", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -165.9375, 16.972741 ], [ -166.289063, 74.402163 ], [ -56.25, 74.307353 ], [ -49.571202, 25.30927 ], [ -165.9375, 16.972741 ] ] ] ] }" .
+  geosparql:wktLiteral "-110.94453036400265 47.426058115222", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -165.9375, 16.972741 ], [ -166.289063, 74.402163 ], [ -56.25, 74.307353 ], [ -49.571202, 25.30927 ], [ -165.9375, 16.972741 ] ] ] ] }";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.amazonaws.com/attr/2023-05/About2.jpg", "https://youtu.be/FmJS34PjfhQ" .
 
 <cs:87b1e5c5-5023-5b85-b747-d3ae67b34e32> a "cs:project";
   dcterms:abstract "Youth traveling for ocean and climate action";
   prov:startedAtTime "Wed May 24 06:00:00 CEST 2023";
   dcat:contactPoint "contact";
-  dcterms:creator "Peace Boat US", "undefined";
+  dcterms:creator "Peace Boat US", "undefined", "";
   foaf:OnlineAccount "", "https://www.facebook.com/PeaceBoatUs", "undefined";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "0 0", "undefined" .
+  geosparql:wktLiteral "0 0", "undefined";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.amazonaws.com/attr/2023-04/UN_Ocean_Decade-_Peace_Boat_US_RONyv78.jpg",
+    "https://www.youtube.com/watch?v=MOEYoS_Zbac" .
 
 <cs:f2b38e5e-4b10-4218-9d14-17f9d3489578> a "cs:project";
   dcterms:abstract "To capture a biological picture of Burton Mesa Ecological Reserve near distinct water features following a historic atmospheric river event in the region.";
   prov:startedAtTime "Thu Feb 23 02:49:43 CET 2023";
   dcat:contactPoint "contact";
-  dcterms:creator "CitSci.org", "undefined";
+  dcterms:creator "CitSci.org", "undefined", "";
   foaf:OnlineAccount "", "undefined";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "0 0", "undefined" .
+  geosparql:wktLiteral "0 0", "undefined";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.amazonaws.com/attr/2023-02/imported/bmer-flora-research",
+    "" .
 
 <cs:d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a> a "cs:project";
   dcterms:abstract "The BEE raises the value of nature by rewarding people for their expertise.";
   prov:startedAtTime "Mon Jan 23 18:47:12 CET 2023";
   dcat:contactPoint "contact";
-  dcterms:creator "EarthGuardians.LIFE", "undefined";
+  dcterms:creator "EarthGuardians.LIFE", "undefined", "QuestaGame";
   foaf:OnlineAccount "", "undefined";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "0 0", "undefined" .
+  geosparql:wktLiteral "0 0", "undefined";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.amazonaws.com/attr/2023-01/Dlwcj2kUUAI6Uxv_5SM6sle.jpg",
+    "" .
 
 <cs:e8024afc-3d9e-5ba5-b173-cf512f1ca13c> a "cs:project";
   dcterms:abstract "To understand how video games can promote critical thinking";
   prov:startedAtTime "Fri Mar 24 09:55:44 CET 2023";
   dcat:contactPoint "contact";
-  dcterms:creator "Universitat de Barcelona", "undefined";
+  dcterms:creator "Universitat de Barcelona", "undefined", "CC-BY-SA";
   foaf:OnlineAccount "@MtoastGames", "https://www.facebook.com/murphystoast", "undefined";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "0 0", "undefined" .
+  geosparql:wktLiteral "0 0", "undefined";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.amazonaws.com/attr/2022-11/titulo.jpg", "" .
 
 <cs:6ca9c53c-1d6c-404c-985a-9c7b6aad41c1> a "cs:project";
   dcterms:abstract "Help ecological assessment and management of sensitive areas.";
@@ -84,22 +115,128 @@
   dcterms:creator "Earthwise Aware";
   foaf:OnlineAccount "";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "-70.81408277943902 42.12971802987217", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -71.725826, 42.654183 ], [ -71.780776, 42.021196 ], [ -70.541203, 41.522647 ], [ -69.771345, 41.574146 ], [ -70.331577, 42.65707 ], [ -71.725826, 42.654183 ] ] ] ] }" .
+  geosparql:wktLiteral "-70.81408277943902 42.12971802987217", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -71.725826, 42.654183 ], [ -71.780776, 42.021196 ], [ -70.541203, 41.522647 ], [ -69.771345, 41.574146 ], [ -70.331577, 42.65707 ], [ -71.725826, 42.654183 ] ] ] ] }";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.us-west-2.amazonaws.com/attr/2023-04/EwA-Inv-Flora_708akfD.png",
+    "" .
 
 <cs:ad38753d-7a95-5268-a55b-79ec27a2338a> a "cs:project";
   dcterms:abstract "Identify clouds in Mars's atmosphere.";
   prov:startedAtTime "Tue Jun 28 18:00:00 CEST 2022";
   dcat:contactPoint "contact";
-  dcterms:creator "NASA / Zooniverse", "undefined";
+  dcterms:creator "NASA / Zooniverse", "undefined", "";
   foaf:OnlineAccount "@cloudspottingM", "", "undefined";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "0 0", "undefined" .
+  geosparql:wktLiteral "0 0", "undefined";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.amazonaws.com/attr/2022-06/mro_with_arch.png",
+    "" .
 
 <cs:9b873aa0-0c23-53d5-95ae-c12902e8cae7> a "cs:project";
   dcterms:abstract "Help pollinators by tracking flowering and seed timing of plants";
   prov:startedAtTime "Thu Jun 23 09:00:00 CEST 2022";
   dcat:contactPoint "contact";
-  dcterms:creator "USA National Phenology Network", "undefined";
+  dcterms:creator "USA National Phenology Network", "undefined", "Brian F Powell";
   foaf:OnlineAccount "@USANPN", "https://www.facebook.com/USANPN", "undefined";
   dcterms:Location "geographicLocation";
-  geosparql:wktLiteral "-99.23453852487283 31.90111986552033", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -109.052124, 36.976365 ], [ -109.129187, 31.301544 ], [ -106.470527, 31.004635 ], [ -102.848583, 28.291387 ], [ -96.837358, 25.158784 ], [ -88.283408, 29.069238 ], [ -88.398999, 30.34155 ], [ -89.439345, 31.169715 ], [ -90.672347, 30.971605 ], [ -90.94207, 32.933921 ], [ -93.908977, 33.127833 ], [ -94.294292, 33.706995 ], [ -94.140166, 37.037926 ], [ -109.052124, 36.976365 ] ] ] ] }" .
+  geosparql:wktLiteral "-99.23453852487283 31.90111986552033", "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ -109.052124, 36.976365 ], [ -109.129187, 31.301544 ], [ -106.470527, 31.004635 ], [ -102.848583, 28.291387 ], [ -96.837358, 25.158784 ], [ -88.283408, 29.069238 ], [ -88.398999, 30.34155 ], [ -89.439345, 31.169715 ], [ -90.672347, 30.971605 ], [ -90.94207, 32.933921 ], [ -93.908977, 33.127833 ], [ -94.294292, 33.706995 ], [ -94.140166, 37.037926 ], [ -109.052124, 36.976365 ] ] ] ] }";
+  foaf:Image "projectMedia";
+  dcterms:MediaTypeOrExtent "Image", "Video";
+  dcterms:source "https://orrery-media.s3.amazonaws.com/attr/2022-06/NPN_October_06_2012_BrianForbesPowell-11_AFKpS1d.jpg",
+    "" .
+
+<:9c659748-33f3-4857-9ed0-ebab41db1fc4> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "9c659748-33f3-4857-9ed0-ebab41db1fc4";
+  dcterms:abstract "Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms.";
+  dcterms:description "";
+  foaf:plan "false";
+  dcat:downloadURL "https://www.anecdata.org/projects/view/1208/data";
+  dcterms:license "Licensed under Creative Commons Attribution 4.0 International License.";
+  dcterms:format "undefined" .
+
+<:a4fc092b-234b-45ec-93f0-8ad759ac0d22> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "a4fc092b-234b-45ec-93f0-8ad759ac0d22";
+  dcterms:abstract "";
+  dcterms:description "";
+  foaf:plan "false";
+  dcat:downloadURL "";
+  dcterms:license "";
+  dcterms:format "undefined" .
+
+<:203f9e0e-8d27-563b-bc1d-115c05990923> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "203f9e0e-8d27-563b-bc1d-115c05990923";
+  dcterms:abstract "All data is saved in our cloud database and is available via a direct request made on our website.";
+  dcterms:description "";
+  foaf:plan "false";
+  dcat:downloadURL "";
+  dcterms:license "MIT No Attribution";
+  dcterms:format "undefined" .
+
+<:87b1e5c5-5023-5b85-b747-d3ae67b34e32> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "87b1e5c5-5023-5b85-b747-d3ae67b34e32";
+  dcterms:abstract "WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website.";
+  dcterms:description "https://peaceboat-us.org/y4sdgs-114/";
+  foaf:plan "false";
+  dcat:downloadURL "https://peaceboat-us.org/y4sdgs-114/";
+  dcterms:license "none";
+  dcterms:format "CSV" .
+
+<:https://peaceboat-us.org/y4sdgs-114/> a dcat:DataService;
+  dcat:endpointDescription "WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website.";
+  dcat:accessService "http://localhost/PeaceBoatUS-YouthfortheSDGsprogramfortheUNOceanDecade" .
+
+<:f2b38e5e-4b10-4218-9d14-17f9d3489578> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "f2b38e5e-4b10-4218-9d14-17f9d3489578";
+  dcterms:abstract "";
+  dcterms:description "";
+  foaf:plan "false";
+  dcat:downloadURL "";
+  dcterms:license "";
+  dcterms:format "undefined" .
+
+<:d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a";
+  dcterms:abstract "We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com.";
+  dcterms:description "";
+  foaf:plan "false";
+  dcat:downloadURL "";
+  dcterms:license "";
+  dcterms:format "undefined" .
+
+<:e8024afc-3d9e-5ba5-b173-cf512f1ca13c> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "e8024afc-3d9e-5ba5-b173-cf512f1ca13c";
+  dcterms:abstract "It will be openly available as a dataset under an Open Data license at the university data repository.";
+  dcterms:description "";
+  foaf:plan "false";
+  dcat:downloadURL "";
+  dcterms:license "Open Data";
+  dcterms:format "undefined" .
+
+<:6ca9c53c-1d6c-404c-985a-9c7b6aad41c1> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "6ca9c53c-1d6c-404c-985a-9c7b6aad41c1";
+  dcterms:abstract "Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable.";
+  dcterms:description "";
+  foaf:plan "false";
+  dcat:downloadURL "https://www.anecdata.org/projects/view/1155/data";
+  dcterms:license "CC-BY";
+  dcterms:format "undefined" .
+
+<:ad38753d-7a95-5268-a55b-79ec27a2338a> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "ad38753d-7a95-5268-a55b-79ec27a2338a";
+  dcterms:abstract "We plan to aggregate and anonymize the data and make it publicly available on an open archive.";
+  dcterms:description "";
+  foaf:plan "false";
+  dcat:downloadURL "";
+  dcterms:license "";
+  dcterms:format "undefined" .
+
+<:9b873aa0-0c23-53d5-95ae-c12902e8cae7> a dcat:Dataset, dcat:Distribution;
+  prov:wasGeneratedBy "9b873aa0-0c23-53d5-95ae-c12902e8cae7";
+  dcterms:abstract "The data are made publicly available via USA National Phenology Network tools.";
+  dcterms:description "https://www.usanpn.org/data/observational";
+  foaf:plan "false";
+  dcat:downloadURL "https://www.usanpn.org/data/observational";
+  dcterms:license "";
+  dcterms:format "undefined" .

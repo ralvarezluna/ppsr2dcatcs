@@ -99,7 +99,8 @@ lazy rule activity {
 		CatalogRecord : DCATCS!CatalogRecord (
 			title <- thisModule.id,
 			description <- act.activityId,
-			resource <- thisModule.dataeschema(act.datasetmetadataschema)
+			resource <- thisModule.dataeschema(act.datasetmetadataschema),
+			issued <- act.datasetmetadataschema.dmmcoreterms.dateSubmitted
 		)	
 }
 
@@ -113,7 +114,7 @@ lazy rule activity {
 		ds:DCATCS!CSDataset
 		(
 		description <- de.observationalDataModel.toString(),
-		identifier <- thisModule.id + 'dataset',
+		identifier <- thisModule.id,
 		abstract <- de.dmmcoreterms.abstract,
 		accrualPeriodicity <- de.dmmcoreterms.datasetEndDate,-- - de.dmmcoreterms.datesetStartDate,
 		bibliographicCitation <- de.dmmcoreterms.bibliographicCitation,
@@ -126,7 +127,6 @@ lazy rule activity {
 		methodSpecification <- de.methodspecification.methodUrl,
 		methodType <- de.dmmcoreterms.methodType,
 		title <- de.dmmcoreterms.title,
-		wasGeneratedBy <- de.dmmcoreterms.rightsHolder,
 		distribution <- thisModule.dist->append(thisModule.distributions(de)) 
 		) 
 }
@@ -144,7 +144,8 @@ lazy rule activity {
 			format <- 'undefined',
 			issued <- de.dmmcoreterms.dateSubmitted,
 			rights <- de.dmmcoreterms.rightsHolder,
-			title <- de.dmmcoreterms.title
+			title <- de.dmmcoreterms.title,
+			description <- de.dmmcoreterms.abstract
 			
 		) 
  }

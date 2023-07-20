@@ -195,7 +195,7 @@ public class ParserManager {
 				dmm.setAccessRights(readJSONComplexObjects(aux, "data_access", "label"));
 				dmm.setDataAccessMethod(readJSONComplexObjects(aux, "data_consent", "label"));
 				dmm.setAbstract(aux.getString("data_results"));
-				
+				dmm.setTitle(aux.getString("name"));
 			
 				DmmExtensionTerms dmmext = ppsrmetamodelFactory.eINSTANCE.createDmmExtensionTerms();
 				Boolean b = aux.getBoolean("data_quality");
