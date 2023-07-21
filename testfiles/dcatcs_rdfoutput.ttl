@@ -147,7 +147,7 @@
   dcterms:source "https://orrery-media.s3.amazonaws.com/attr/2022-06/NPN_October_06_2012_BrianForbesPowell-11_AFKpS1d.jpg",
     "" .
 
-<:9c659748-33f3-4857-9ed0-ebab41db1fc4> a dcat:Dataset, dcat:Distribution;
+<dcat:9c659748-33f3-4857-9ed0-ebab41db1fc4> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "9c659748-33f3-4857-9ed0-ebab41db1fc4";
   dcterms:abstract "Data is discoverable, aggregated with other EwA data, and intended to be pushed to global interaction platforms.";
   dcterms:description "";
@@ -156,7 +156,7 @@
   dcterms:license "Licensed under Creative Commons Attribution 4.0 International License.";
   dcterms:format "undefined" .
 
-<:a4fc092b-234b-45ec-93f0-8ad759ac0d22> a dcat:Dataset, dcat:Distribution;
+<dcat:a4fc092b-234b-45ec-93f0-8ad759ac0d22> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "a4fc092b-234b-45ec-93f0-8ad759ac0d22";
   dcterms:abstract "";
   dcterms:description "";
@@ -165,7 +165,7 @@
   dcterms:license "";
   dcterms:format "undefined" .
 
-<:203f9e0e-8d27-563b-bc1d-115c05990923> a dcat:Dataset, dcat:Distribution;
+<dcat:203f9e0e-8d27-563b-bc1d-115c05990923> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "203f9e0e-8d27-563b-bc1d-115c05990923";
   dcterms:abstract "All data is saved in our cloud database and is available via a direct request made on our website.";
   dcterms:description "";
@@ -174,7 +174,7 @@
   dcterms:license "MIT No Attribution";
   dcterms:format "undefined" .
 
-<:87b1e5c5-5023-5b85-b747-d3ae67b34e32> a dcat:Dataset, dcat:Distribution;
+<dcat:87b1e5c5-5023-5b85-b747-d3ae67b34e32> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "87b1e5c5-5023-5b85-b747-d3ae67b34e32";
   dcterms:abstract "WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website.";
   dcterms:description "https://peaceboat-us.org/y4sdgs-114/";
@@ -183,11 +183,11 @@
   dcterms:license "none";
   dcterms:format "CSV" .
 
-<:https://peaceboat-us.org/y4sdgs-114/> a dcat:DataService;
+<dcat:https://peaceboat-us.org/y4sdgs-114/> a dcat:DataService;
   dcat:endpointDescription "WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website.";
   dcat:accessService "http://localhost/PeaceBoatUS-YouthfortheSDGsprogramfortheUNOceanDecade" .
 
-<:f2b38e5e-4b10-4218-9d14-17f9d3489578> a dcat:Dataset, dcat:Distribution;
+<dcat:f2b38e5e-4b10-4218-9d14-17f9d3489578> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "f2b38e5e-4b10-4218-9d14-17f9d3489578";
   dcterms:abstract "";
   dcterms:description "";
@@ -196,7 +196,7 @@
   dcterms:license "";
   dcterms:format "undefined" .
 
-<:d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a> a dcat:Dataset, dcat:Distribution;
+<dcat:d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "d9f1928e-55f1-5a6e-995d-a6f88cd6cb7a";
   dcterms:abstract "We strongly promote open data exchange while at the same time protecting individual rights to the data. For more information, see https://questagame.com/terms-conditions or contact info@questagame.com.";
   dcterms:description "";
@@ -205,7 +205,7 @@
   dcterms:license "";
   dcterms:format "undefined" .
 
-<:e8024afc-3d9e-5ba5-b173-cf512f1ca13c> a dcat:Dataset, dcat:Distribution;
+<dcat:e8024afc-3d9e-5ba5-b173-cf512f1ca13c> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "e8024afc-3d9e-5ba5-b173-cf512f1ca13c";
   dcterms:abstract "It will be openly available as a dataset under an Open Data license at the university data repository.";
   dcterms:description "";
@@ -214,7 +214,7 @@
   dcterms:license "Open Data";
   dcterms:format "undefined" .
 
-<:6ca9c53c-1d6c-404c-985a-9c7b6aad41c1> a dcat:Dataset, dcat:Distribution;
+<dcat:6ca9c53c-1d6c-404c-985a-9c7b6aad41c1> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "6ca9c53c-1d6c-404c-985a-9c7b6aad41c1";
   dcterms:abstract "Open. Analyzed. Aggregated with other ecological factors. Added to GIS Map when applicable.";
   dcterms:description "";
@@ -223,7 +223,7 @@
   dcterms:license "CC-BY";
   dcterms:format "undefined" .
 
-<:ad38753d-7a95-5268-a55b-79ec27a2338a> a dcat:Dataset, dcat:Distribution;
+<dcat:ad38753d-7a95-5268-a55b-79ec27a2338a> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "ad38753d-7a95-5268-a55b-79ec27a2338a";
   dcterms:abstract "We plan to aggregate and anonymize the data and make it publicly available on an open archive.";
   dcterms:description "";
@@ -232,7 +232,7 @@
   dcterms:license "";
   dcterms:format "undefined" .
 
-<:9b873aa0-0c23-53d5-95ae-c12902e8cae7> a dcat:Dataset, dcat:Distribution;
+<dcat:9b873aa0-0c23-53d5-95ae-c12902e8cae7> a dcat:Dataset, dcat:Distribution;
   prov:wasGeneratedBy "9b873aa0-0c23-53d5-95ae-c12902e8cae7";
   dcterms:abstract "The data are made publicly available via USA National Phenology Network tools.";
   dcterms:description "https://www.usanpn.org/data/observational";

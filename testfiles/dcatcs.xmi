@@ -121,7 +121,7 @@
   </dcatcs:CSDataset>
   <dcatcs:CatalogRecord description="Observe marine life, ocean currents and learn from communities" title="87b1e5c5-5023-5b85-b747-d3ae67b34e32" resource="/8"/>
   <dcatcs:CSDataset description="https://peaceboat-us.org/y4sdgs-114/" identifier="87b1e5c5-5023-5b85-b747-d3ae67b34e32" title="Peace Boat US - Youth for the SDGs program for the UN Ocean Decade" abstract="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." dataQualityAssuranceMethod="false">
-    <distribution downloadURL="https://peaceboat-us.org/y4sdgs-114/" description="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." format="CSV" license="none" title="Peace Boat US - Youth for the SDGs program for the UN Ocean Decade"/>
+    <distribution downloadURL="https://peaceboat-us.org/y4sdgs-114/" description="WE will upload the data to the UN Ocean Decade Ocean Data System and provide the data to EarthEcho International for the Water Challenge website." format="undefined" license="none" title="Peace Boat US - Youth for the SDGs program for the UN Ocean Decade"/>
     <bibliographicCitation xsi:nil="true"/>
     <methodType xsi:nil="true"/>
     <methodSpecification xsi:nil="true"/>

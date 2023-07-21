@@ -55,12 +55,11 @@ public class runner {
 			e.printStackTrace();
 		}
 		//If you require load more than 1 file, put in args all the file paths
-		args = new String[1];
-		args[0] = dcatcsXMI;
+		
+		ShaclValidator.main(args);
 		//LoadFromXMI.main(args);
 	
 		
 	}
-	
 	
 }

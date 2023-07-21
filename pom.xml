@@ -1,128 +1,179 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>ppsr2dcatlauncher</groupId>
-  <artifactId>ppsr2dcatlauncher</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>ppsr2dcatlauncher</name>
-  <description>Project for supporting PPSR to DCATCS transformations</description>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <release>17</release>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-  <repositories>
-        <repository>
-            <id>eclipse-releases</id>
-            <url>https://repo.eclipse.org/content/groups/releases/</url>
-        </repository>   
-           <repository>
-            <id>maven-central</id>
-            <url>https://mvnrepository.com/artifact/</url>
-        </repository>  
-  </repositories>
-  <dependencies>
-	  
-<!-- https://mvnrepository.com/artifact/org.json/json -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ppsr2dcatlauncher</groupId>
+	<artifactId>ppsr2dcatlauncher</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ppsr2dcatlauncher</name>
+	<description>Project for supporting PPSR to DCATCS transformations</description>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<release>17</release>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<repositories>
+		<repository>
+			<id>eclipse-releases</id>
+			<url>https://repo.eclipse.org/content/groups/releases/</url>
+		</repository>
+		<repository>
+			<id>maven-central</id>
+			<url>https://mvnrepository.com/artifact/</url>
+		</repository>
+	</repositories>
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20230618</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.13.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.ecore -->
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>org.eclipse.emf.ecore</artifactId>
+			<version>2.34.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.ecore.xmi -->
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+			<version>2.18.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.emftvm -->
+		<dependency>
+			<groupId>org.eclipse.m2m.atl</groupId>
+			<artifactId>org.eclipse.m2m.atl.emftvm</artifactId>
+			<version>4.8.0</version>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.core.emf -->
+		<dependency>
+			<groupId>org.eclipse.m2m.atl</groupId>
+			<artifactId>org.eclipse.m2m.atl.core.emf</artifactId>
+			<version>4.8.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.engine.emfvm -->
+		<dependency>
+			<groupId>org.eclipse.m2m.atl</groupId>
+			<artifactId>org.eclipse.m2m.atl.engine.emfvm</artifactId>
+			<version>4.8.0</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.platform/org.eclipse.core.runtime -->
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.core.runtime</artifactId>
+			<version>3.27.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-model -->
+		<dependency>
+			<groupId>org.eclipse.rdf4j</groupId>
+			<artifactId>rdf4j-model</artifactId>
+			<version>4.3.3</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-repository-sail -->
+		<dependency>
+			<groupId>org.eclipse.rdf4j</groupId>
+			<artifactId>rdf4j-repository-sail</artifactId>
+			<version>4.3.3</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-rio-turtle -->
+		<dependency>
+			<groupId>org.eclipse.rdf4j</groupId>
+			<artifactId>rdf4j-rio-turtle</artifactId>
+			<version>4.3.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-util -->
+		<dependency>
+			<groupId>org.eclipse.rdf4j</groupId>
+			<artifactId>rdf4j-util</artifactId>
+			<version>3.7.7</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-shacl -->
+		<dependency>
+			<groupId>org.eclipse.rdf4j</groupId>
+			<artifactId>rdf4j-shacl</artifactId>
+			<version>4.3.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.30</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.30</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.4.8</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.topbraid/shacl -->
 <dependency>
-    <groupId>org.json</groupId>
-    <artifactId>json</artifactId>
-    <version>20230618</version>
+    <groupId>org.topbraid</groupId>
+    <artifactId>shacl</artifactId>
+    <version>1.4.2</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-        <version>2.6</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.ecore -->
-<dependency>
-    <groupId>org.eclipse.emf</groupId>
-    <artifactId>org.eclipse.emf.ecore</artifactId>
-    <version>2.34.0</version>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>3.0.0-alpha1</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.eclipse.emf/org.eclipse.emf.ecore.xmi -->
+<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-core -->
 <dependency>
-    <groupId>org.eclipse.emf</groupId>
-    <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
-    <version>2.18.0</version>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena-core</artifactId>
+    <version>4.9.0</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.emftvm -->
+<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-shacl -->
 <dependency>
-    <groupId>org.eclipse.m2m.atl</groupId>
-    <artifactId>org.eclipse.m2m.atl.emftvm</artifactId>
-    <version>4.8.0</version>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena-shacl</artifactId>
+    <version>4.9.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-arq -->
+<dependency>
+    <groupId>org.apache.jena</groupId>
+    <artifactId>jena-arq</artifactId>
+    <version>4.9.0</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.core.emf -->
-<dependency>
-    <groupId>org.eclipse.m2m.atl</groupId>
-    <artifactId>org.eclipse.m2m.atl.core.emf</artifactId>
-    <version>4.8.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.eclipse.m2m.atl/org.eclipse.m2m.atl.engine.emfvm -->
-<dependency>
-    <groupId>org.eclipse.m2m.atl</groupId>
-    <artifactId>org.eclipse.m2m.atl.engine.emfvm</artifactId>
-    <version>4.8.0</version>
-</dependency>
-
-
-<!-- https://mvnrepository.com/artifact/org.eclipse.platform/org.eclipse.core.runtime -->
-<dependency>
-    <groupId>org.eclipse.platform</groupId>
-    <artifactId>org.eclipse.core.runtime</artifactId>
-    <version>3.27.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/junit/junit -->
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.13.2</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-model -->
-<dependency>
-    <groupId>org.eclipse.rdf4j</groupId>
-    <artifactId>rdf4j-model</artifactId>
-    <version>4.3.3</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-repository-sail -->
-<dependency>
-    <groupId>org.eclipse.rdf4j</groupId>
-    <artifactId>rdf4j-repository-sail</artifactId>
-    <version>4.3.3</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-rio-turtle -->
-<dependency>
-    <groupId>org.eclipse.rdf4j</groupId>
-    <artifactId>rdf4j-rio-turtle</artifactId>
-    <version>4.3.3</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-util -->
-<dependency>
-    <groupId>org.eclipse.rdf4j</groupId>
-    <artifactId>rdf4j-util</artifactId>
-    <version>3.7.7</version>
-</dependency>
-       <dependency>
-           <groupId>org.slf4j</groupId>
-           <artifactId>slf4j-api</artifactId>
-           <version>1.7.30</version>
-       </dependency>
-
-       <dependency>
-           <groupId>org.slf4j</groupId>
-           <artifactId>slf4j-simple</artifactId>
-           <version>1.7.30</version>
-       </dependency>
-
-
-  </dependencies>
+ </dependencies>
 
 </project>
