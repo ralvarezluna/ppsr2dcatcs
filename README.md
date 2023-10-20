@@ -13,7 +13,7 @@ After establishing the PPSR Core metamodel, the next step involves examining the
 
 For running the project you must:
 - Prepare or load a JSON File from a PPSR implementation.
-- Run the class src/ppsr2dcatlauncher/runner.java (adjust file paths according with your JSON file name, except the metamodels)
+- Run the class src/ppsr2dcatlauncher/runner.java (adjust file paths in config.properties file, using relative path)
 - The execution will produce a XMI file as instance from de PPSR metamodel, later a XMI file with an instance of DCAT-CS metamodel transformed.
 
 The project is a Java - Maven project, be sure your able to resolve the declared dependencies.

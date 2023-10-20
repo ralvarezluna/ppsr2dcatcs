@@ -65,9 +65,9 @@
   dct:publisher <http://publications.europa.eu/resource/authority/corporate-body/COM> ;
   dct:relation <https://joinup.ec.europa.eu/node/69559> ;
   dct:rightsHolder <http://publications.europa.eu/resource/authority/corporate-body/EURUN> ;
-  dct:title "DCAT Application Profile for Data Portals in Europe"@en ;
-  rdfs:comment "This document specifies the set of RDF classes and properties used in the DCAT Application profile for data portals in Europe (DCAT-AP)."@en ;
-  rdfs:label "DCAT Application Profile for Data Portals in Europe"@en ;
+  dct:title "DCAT Application Profile for Citizen Science"@en ;
+  rdfs:comment "This document specifies the set of RDF classes and properties used in the DCAT Application profile for Citizen Science (DCAT-CS)."@en ;
+  rdfs:label "DCAT Application Profile for Citizen Science"@en ;
    owl:imports <http://datashapes.org/dash> ;
   owl:imports dct: ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
@@ -79,10 +79,9 @@
   owl:imports foaf: ;
   owl:versionInfo "1.2" ;
   foaf:depiction <https://joinup.ec.europa.eu/system/files/project/dcat-ap_.1.bmp> ;
-  foaf:homepage <https://joinup.ec.europa.eu/node/69559> ;
-  foaf:logo <https://joinup.ec.europa.eu/sites/default/files/imagecache/community_logo/DCAT_application_profile_for_European_data_portals_logo_0.png> ;
+  foaf:homepage <https://github.com/ralvarezluna/ppsr2dcatcs> ;
   foaf:maker [
-      foaf:mbox <mailto:dcat_application_profile@joinup.ec.europa.eu> ;
+      foaf:mbox <mailto:ralvarezluna@joinup.ec.europa.eu> ;
       foaf:name "DCAT-AP Working Group" ;
       foaf:page <https://joinup.ec.europa.eu/node/63580> ;
     ] ;
@@ -500,8 +499,7 @@ dcat:CSProject
       sh:severity sh:Violation ;
     ] ;
   sh:property [
-      sh:path dct:format ;
-      sh:class dct:MediaTypeOrExtent ;
+      sh:path dct:identifier ;
       sh:maxCount 1 ;
             sh:nodeKind sh:IRI ;
       sh:severity sh:Violation ;
@@ -518,22 +516,22 @@ dcat:CSProject
             sh:severity sh:Violation ;
     ] ;
   sh:property [
-      sh:path dct:license ;
-      sh:class dct:LicenseDocument ;
-      sh:maxCount 1 ;
-            sh:severity sh:Violation ;
-    ] ;
-  sh:property [
       sh:path dct:modified ;
       sh:maxCount 1 ;
             sh:severity sh:Violation ;
       sh:node :DateOrDateTimeDataType ;
     ] ;
   sh:property [
-      sh:path dct:rights ;
-      sh:class dct:RightsStatement ;
+      sh:path adms:status ;
+      sh:class skos:Concept ;
       sh:maxCount 1 ;
-            sh:severity sh:Violation ;
+            sh:nodeKind sh:IRI ;
+      sh:severity sh:Violation ;
+    ] ;
+  sh:property [
+      sh:path dct:abstract ;
+      sh:nodeKind sh:Literal ;
+      sh:severity sh:Violation ;
     ] ;
   sh:property [
       sh:path dct:title ;
@@ -554,33 +552,9 @@ dcat:CSProject
       sh:severity sh:Violation ;
     ] ;
   sh:property [
-      sh:path dcat:accessURL ;
-      sh:nodeKind sh:IRI ;
-      sh:minCount 1 ;
+      sh:path prov:startedAtTime ;
+      sh:class prov:Activity ;
+      sh:datatype xsd:date ;
             sh:severity sh:Violation ;
     ] ;
-  sh:property [
-      sh:path dcat:byteSize ;
-      sh:datatype xsd:decimal ;
-      sh:maxCount 1 ;
-            sh:severity sh:Violation ;
-    ] ;
-  sh:property [
-      sh:path dcat:downloadURL ;
-      sh:nodeKind sh:IRI ;
-            sh:severity sh:Violation ;
-    ] ;
-  sh:property [
-      sh:path dcat:mediaType ;
-      sh:class dct:MediaTypeOrExtent ;
-      sh:maxCount 1 ;
-            sh:severity sh:Violation ;
-    ] ;
-  sh:property [
-      sh:path foaf:page ;
-      sh:class foaf:Document ;
-            sh:severity sh:Violation ;
-    ] ;
-  
-
 .

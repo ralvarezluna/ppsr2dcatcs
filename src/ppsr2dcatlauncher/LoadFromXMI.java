@@ -2,16 +2,14 @@
  */
 package ppsr2dcatlauncher;
 
-import dcatcs.*;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.channels.Channels;
+
+import java.net.URL;import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
-import java.net.*;
 import java.util.Properties;
 
 import org.eclipse.emf.common.util.Diagnostic;
@@ -39,6 +37,14 @@ import org.eclipse.rdf4j.model.vocabulary.RDF;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
 
+
+import dcatcs.CSCatalog;
+import dcatcs.CSDataset;
+import dcatcs.CatalogRecord;
+import dcatcs.Dataset;
+import dcatcs.DcatcsFactory;
+import dcatcs.DcatcsPackage;
+import dcatcs.Distribution;
 /**
  * <!-- begin-user-doc -->
  * A sample utility for the '<em><b>dcatcs</b></em>' package.
@@ -54,13 +60,16 @@ public class LoadFromXMI {
 	 * @throws IOException 
 	 * @generated
 	 */
-	final static String path = new File("").getAbsolutePath();
-	final static Properties prop = new Properties();
+	static String path;
+	static Properties prop;
 	
 	public static void main(String[] args) throws IOException {
+
+		path = "/home/rey/eclipse-workspace/ppsr2dcatcs";
+		
 		
 		InputStream input = new FileInputStream(path + "/config.properties");
-		//Properties prop = new Properties();
+		prop = new Properties();
 		prop.load(input);
 		args = new String[1];
 		args[0] = path + prop.getProperty("dcatcs.minstance");
@@ -231,9 +240,10 @@ public class LoadFromXMI {
 				}
 			}
 		}
+		
 	}
 	
-	private static void checkDataService(Distribution dist, ModelBuilder builder) throws IOException {
+	private  static void checkDataService(Distribution dist, ModelBuilder builder) throws IOException {
 		if(dist.getFormat().equals("CSV")) {
 			String title = dist.getTitle().replaceAll(" ", "");
 			System.out.print(title);
@@ -248,6 +258,7 @@ public class LoadFromXMI {
 			fos.close();
 			//Calling the java proccess for generating the APIs from the CSVs downloaded
 			Process proc = Runtime.getRuntime().exec("java -jar "+ path + "/apigen/ag.jar csv2api" + title.concat(".csv"));
+			proc.destroy();
 		}
 	}
 
